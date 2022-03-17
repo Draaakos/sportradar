@@ -1,4 +1,4 @@
-class Team:
+class League:
     def __init__(self):
         self.id = None
         self.name = None

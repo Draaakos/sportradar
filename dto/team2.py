@@ -2,7 +2,14 @@ class Team:
     def __init__(self):
         self.id = None
         self.name = None
-        self.short_name = None
+        self.name_data = None
+        self.url = None
+        self.played = None
+        self.wins = None
+        self.draws = None
+        self.losses = None
+        self.points = None
+        self.position = None
 
 
     def _is_valid(self):
@@ -25,6 +32,13 @@ class Team:
             'information': {
                 'id': self.id,
                 'name': self.name,
-                'short_name': self.short_name
+                'name_data': self.name_data,
+                'url': self.url,
+                'played': self.played,
+                'wins': self.wins,
+                'draws': self.draws,
+                'losses': self.losses,
+                'points': self.points,
+                'position': self.position
             }
         }

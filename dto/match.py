@@ -24,7 +24,8 @@ class Match:
         self.local_team_yellow_cards = None
         self.local_team_red_cards = None
         self.local_team_player_list = None
-        self.local_team_atk_combination = None
+        self.local_team_atk_1_combination = None
+        self.local_team_atk_over_2_combination = None
         self.local_team_def_combination = None
 
         self.visit_team_id = None
@@ -44,7 +45,8 @@ class Match:
         self.visit_team_yellow_cards = None
         self.visit_team_red_cards = None
         self.visit_team_player_list = None
-        self.visit_team_atk_combination = None
+        self.visit_team_atk_1_combination = None
+        self.visit_team_atk_over_2_combination = None
         self.visit_team_def_combination = None
 
 
@@ -95,7 +97,8 @@ class Match:
                         'red': self.local_team_red_cards
                     },
                     'combinations': {
-                        'atk': self.local_team_atk_combination,
+                        'atk_1': self.local_team_atk_1_combination,
+                        'atk_over_2': self.local_team_atk_over_2_combination,
                         'def': self.local_team_def_combination
                     }
                 },
@@ -120,7 +123,8 @@ class Match:
                         'red': self.visit_team_red_cards
                     },
                     'combinations': {
-                        'atk': self.visit_team_atk_combination,
+                        'atk_1': self.visit_team_atk_1_combination,
+                        'atk_over_2': self.visit_team_atk_over_2_combination,
                         'def': self.visit_team_def_combination
                     }
                 }
