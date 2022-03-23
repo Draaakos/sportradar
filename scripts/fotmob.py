@@ -7,6 +7,8 @@ from dto.league import League
 from dto.team import Team
 from dto.player import Player
 from dto.stat import Stat
+from dto.match_to_save import MatchToSave
+from dto.match_next_round import MatchNextRound
 from . import utils
 
 
@@ -142,10 +144,22 @@ class Fotmob():
 
 
         self.filename = filename
-        self.connection = utils.make_mongo_con().futbol_analisis_1_3
+        self.connection = utils.make_mongo_con().futbol_analisis_1_4
         self.logger = utils.create_logger(filename, name)
         self.headers = {
-            'User-Agent': 'PostmanRuntime/7.29.0'
+            'accept': 'application/json, text/plain, */*',
+            'accept-encoding': 'gzip, deflate, br',
+            'accept-language': 'es-ES,es;q=0.9,en;q=0.8,fr;q=0.7',
+            'cache-control': "no-cache",
+            'postman-token': "22a12fa5-5f68-685c-124d-db0ef6eb334c",
+            'host': 'www.fotmob.com'
+
+
+            # 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            # 'accept-encoding': 'gzip, deflate, br',
+            # 'accept-language': 'es-ES,es;q=0.9,en;q=0.8,fr;q=0.7s',
+            # 'cache-control': 'no-cache',
+            # 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36'
         }
 
     # def start(self):
@@ -153,13 +167,28 @@ class Fotmob():
     #     validation(x)
     #     print(x)
 
+    def _insert_team_for_league(self, url):
+        print('inserting teams for league => ', url)
+        response = requests.get(url).json()
+
+        for item in response['matchesTab']['data']['allMatches']:
+            if not item['home']['id'] in self.team_list:
+                self.team_list.append(item['home']['id'])
+
+        for team_id in self.team_list:
+            is_exist = self.connection.team.find_one({ "information.id": int(team_id) })
+
+            if is_exist is None:
+                self._process_team(team_id)
+
+
     def start(self):
         # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=87&tab=matches&seo=laliga'
 
         # este es el correcto
-        league_url_list = [     
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=47&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=53&tab=matches&seo=mls',
+        league_url_list = [
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=47&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=53&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=54&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=87&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=55&tab=matches&seo=mls',
@@ -171,30 +200,18 @@ class Fotmob():
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=86&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=108&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=109&tab=matches&seo=mls',
-            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=110&tab=matches&seo=mls',
-            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=273&tab=matches&seo=mls',
-
-
-
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=8982&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=8983&tab=matches&seo=mls'
-            
-
-
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=47&tab=overview&seo=premier-league',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=53&tab=overview&seo=ligue-1',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=54&tab=overview&seo=1.-bundesliga',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=87&tab=overview&seo=laliga',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=55&tab=overview&seo=serie-a',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=57&tab=overview&seo=eredivisie',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=40&tab=overview&seo=first-division-a',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=61&tab=overview&seo=liga-portugal',
-            # 'https://www.fotmob.com/leagues?ccode3=ARG&timezone=America%2FBuenos_Aires&id=69&tab=overview&seo=super-league' 
+            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=110&tab=matches&seo=mls',
+            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=273&tab=matches&seo=mls',
         ]
 
         for url in league_url_list:
             response = self._fetch_data_league(url)
+
+            # insert teams for this league
+            self._insert_team_for_league(url)
+
             league_id = response['details']['id']
+            print('league_id', league_id)
 
             is_exist = self.connection.league.find_one({ "information.id": int(league_id) })
             if is_exist is None:
@@ -203,22 +220,133 @@ class Fotmob():
                 league.name = response['details']['name']
                 league.short_name = response['details']['shortName']
                 self._save('league', league)
-                
-            for item in response['matchesTab']['data']['allMatches']:
-                if not item['id'] in self.match_list:
-                    if item['status']['finished']:
-                        self.match_list.append(item['id'])
 
-                if not item['home']['id'] in self.team_list:
-                    self.team_list.append(item['home']['id'])
+
+            all_matches_to_save = self.connection.match_to_save.find({ "information.league": int(league_id), "information.error": False })
+            process_matches_to_save = False
+
+            try:
+                if all_matches_to_save[0]:
+                    process_matches_to_save = True
+            except:
+                for item in response['matchesTab']['data']['allMatches']:
+                    match_id = item['id']
+                    url = f"https://www.fotmob.com/matchDetails?matchId={match_id}"
+                    match_to_save = MatchToSave()
+                    match_to_save.id = match_id
+                    match_to_save.url = url
+                    match_to_save.status = False
+                    match_to_save.league = league_id
+                    match_to_save.round = item['round']
+                    match_to_save.started = item['status']['started']
+                    match_to_save.cancelled = item['status']['cancelled']
+                    match_to_save.local_team = item['home']['id']
+                    match_to_save.visit_team = item['away']['id']
+                    match_to_save.date = item['monthKey']
+                    match_to_save.error = False
+                    match_to_save.finished = item['status']['finished']
+                    print('saving match to save in db...')
+                    self._save('match_to_save', match_to_save)
+                process_matches_to_save = False
+
+            if process_matches_to_save is True:
+                for match in all_matches_to_save:
+                    if match['information']['finished'] is True:
+                        status = self._process_match(match['information']['id'])
+
+                        if status['inserted'] is True:
+                            print('insertado')
+                            values_updates = { "$set": { 'information.status': True } }
+                            self.connection.match_to_save.update_one(match, values_updates)
+                        elif status['error'] is True:
+                            values_updates = { "$set": { 'information.error': True } }
+                            self.connection.match_to_save.update_one(match, values_updates)
+
+                    if match['information']['started'] is False and match['information']['cancelled'] is False:
+                        is_exist = self.connection.match_next_round.find_one({ "information.id": match['information']['id'] })
+
+                        if is_exist is None:
+                            match_next_round = MatchNextRound()
+                            match_next_round.id = match['information']['id']
+                            match_next_round.round = match['information']['round']
+                            match_next_round.local_team = match['information']['local_team']
+                            match_next_round.visit_team = match['information']['visit_team']
+                            match_next_round.date = match['information']['date']
+                            print('saving for next rounds...')
+                            self._save('match_next_round', match_next_round)
+
+
+                    # match.save()
+                    # item.
+
+                    # print('x')
+                    # try:
+
+                    # except:
+
+
+
+            # print(all_matches_to_save[0])
+            # if all_matches_to_save:
+            #     print('si hayy')
+            # else:
+            #     print('no hay')
+            
+            # print(is_exist)
+            # for item in response['matchesTab']['data']['allMatches']:
+            #     match_id = item['id']
+            #     url = f"https://www.fotmob.com/matchDetails?matchId={match_id}"
+
+            #     match_to_save = MatchToSave()
+            #     match_to_save.id = match_id
+            #     match_to_save.url = url
+            #     match_to_save.status = False
+            #     match_to_save.league = league_id
+            #     match_to_save.error = False
+            #     self._save('match_to_save', match_to_save)
+
+                # print()
+                #   'url': self.url,
+                # 'name': self.status,
+                # 'league': self.league,
+                # 'error': self.error
+
+
+                # if not item['id'] in self.match_list:
+                #     if item['status']['finished']:
+                #         self.match_list.append(item['id'])
+
+                # if not item['home']['id'] in self.team_list:
+                #     self.team_list.append(item['home']['id'])
+
+                
+            # for item in response['matchesTab']['data']['allMatches']:
+            #     if not item['id'] in self.match_list:
+            #         if item['status']['finished']:
+            #             self.match_list.append(item['id'])
+
+            #     if not item['home']['id'] in self.team_list:
+            #         self.team_list.append(item['home']['id'])
 
             
-            for team_id in self.team_list:
-                self._process_team(team_id)
+            # for team_id in self.team_list:
+            #     self._process_team(team_id)
 
 
-            for match_id in self.match_list:
-                self._process_match(match_id)
+            # for match_id in self.match_list:
+            #     self._process_match(match_id)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             #     print('guardando...')
@@ -239,11 +367,14 @@ class Fotmob():
 
 
     def _process_match(self, match_id):
+        status = {
+            'error': False,
+            'msg': '',
+            'inserted': False
+        }
+
         is_exist = self.connection.match.find_one({ "information.id": int(match_id) })
-
         url = f"https://www.fotmob.com/matchDetails?matchId={match_id}"
-
-        # is_banned = 
 
         if is_exist is None:
             print(url)
@@ -251,13 +382,18 @@ class Fotmob():
             data = requests.get(url).json()
 
             if validation(data) is False:
-                # self._save('ban', { 'url': url })
-                return
+                status['error'] = True
+                status['msg'] = 'invalid data'
+                return status
             else:
-                return self._process_data_detail(data)
-        # else:
-        #     pass
-        #     print('ya esta registrado')
+                try:
+                    self._process_data_detail(data)
+                    status['inserted'] = True
+                except:
+                    status['msg'] = 'inserting data error...'
+            return status
+        else:
+           return status
 
 
 
