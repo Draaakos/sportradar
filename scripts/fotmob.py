@@ -185,27 +185,44 @@ class Fotmob():
     def start(self):
         # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=87&tab=matches&seo=laliga'
 
+
+        # 47 => ENGLAND PREMIER LEAGUE
+        # 53  => FRANCE LIGUE 1
+        # 54  => GERMANY 1. BUNDESLIGA
+        # 87  => SPAIN LALIGA
+        # 55  => ITALY SERIE A
+        # 57  => NETHERLANDS EREDIVISIE
+        # 40  => BELGIUM FIRST DIVISION A
+        # 61  => PORTUGAL LIGA PORTUGAL
+        # 48  => ENGLAND CHAMPIONSHIP
+        # 108 => ENGLAND LEAGUE 1
+        # 109 => ENGLAND LEAGUE 2
+
         # este es el correcto
         league_url_list = [
             'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=47&tab=matches&seo=mls',
             'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=53&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=54&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=87&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=55&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=57&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=40&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=61&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=54&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=87&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=55&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=57&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=40&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=61&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=48&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=108&tab=matches&seo=mls',
+            'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=109&tab=matches&seo=mls',
+
+            
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=69&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=48&tab=matches&seo=mls',
+            
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=86&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=108&tab=matches&seo=mls',
-            # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=109&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=110&tab=matches&seo=mls',
             # 'https://www.fotmob.com/leagues?ccode3=CHL&timezone=America%2FSantiago&id=273&tab=matches&seo=mls',
         ]
 
         for url in league_url_list:
             response = self._fetch_data_league(url)
+            time.sleep(1)
 
             # insert teams for this league
             self._insert_team_for_league(url)
