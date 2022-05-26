@@ -89,7 +89,7 @@ json response:
 
 Fetch all team by league id:
 ```
-https://stats.fn.sportradar.com/sportradar/es/Europe:Berlin/gismo/stats_season_tables/{league_id}
+/sportradar/es/Europe:Berlin/gismo/stats_season_tables/{league_id}
 ``` 
 
 json response:
@@ -97,51 +97,57 @@ json response:
 {
     "queryUrl": "stats_season_tables/{league_id}",
     "doc": [
-        "data": {
-            "tables": [
-                {
-                    "name": league_name,
-                    "tablerows": [
-                        {
-                            "drawTotal": total_draw,
-                            "drawHome": total_draw_home,
-                            "drawAway": total_draw_away,
-                            "pos": table_position,
-                            "lossTotal":total_loss,
-                            "lossHome": total_loss_home,
-                            "lossAway": total_loss_away,
-                            "winTotal": total_win,
-                            "winHome": total_win_home,
-                            "winAway": total_win_away
-                            "team": {
-                                "_id": team_id,
-                                "name": team_name,
+        {
+            "data": {
+                "tables": [
+                    {
+                        "name": league_name,
+                        "tablerows": [
+                            {
+                                "drawTotal": total_draw,
+                                "drawHome": total_draw_home,
+                                "drawAway": total_draw_away,
+                                "pos": table_position,
+                                "lossTotal":total_loss,
+                                "lossHome": total_loss_home,
+                                "lossAway": total_loss_away,
+                                "winTotal": total_win,
+                                "winHome": total_win_home,
+                                "winAway": total_win_away,
+                                "team": {
+                                    "_id": team_id,
+                                    "name": team_name,
+                                },
+                                ...
+                            },
+                            {
+                                "drawTotal": total_draw,
+                                "drawHome": total_draw_home,
+                                "drawAway": total_draw_away,
+                                "pos": table_position,
+                                "lossTotal":total_loss,
+                                "lossHome": total_loss_home,
+                                "lossAway": total_loss_away,
+                                "winTotal": total_win,
+                                "winHome": total_win_home,
+                                "winAway": total_win_away
+                                "team": {
+                                    "_id": team_id,
+                                    "name": team_name,
+                                },
+                                ...
                             },
                             ...
-                        },
-                        {
-                            "drawTotal": total_draw,
-                            "drawHome": total_draw_home,
-                            "drawAway": total_draw_away,
-                            "pos": table_position,
-                            "lossTotal":total_loss,
-                            "lossHome": total_loss_home,
-                            "lossAway": total_loss_away,
-                            "winTotal": total_win,
-                            "winHome": total_win_home,
-                            "winAway": total_win_away
-                            "team": {
-                                "_id": team_id,
-                                "name": team_name,
-                            },
-                            ...
-                        },
-                        ...
-                    ]
-                }
-            ]
-        },
-        ...
+                        ]
+                    }
+                ]
+            }
+        }
     ]
 }
-``` 
+```
+
+Fech season information
+```
+/sportradar/en/Europe:Berlin/gismo/stats_season_uniqueteamstats/{season_id}
+```
