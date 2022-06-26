@@ -1,3 +1,4 @@
+import time
 import requests
 import datetime
 from .enum import Sport
@@ -25,6 +26,7 @@ class Sportradar:
 
     def fetch_matches_by_season(self, season_id):
         url = f'sportradar/en/America:Montevideo/gismo/stats_season_fixtures2/{season_id}/1'
+        print(f'{self.base_url}/{url}')
         try:
             response = requests.get(f'{self.base_url}/{url}').json()
             return {
@@ -134,6 +136,7 @@ def process_leagues_response(response):
 
 def clear_console():
     print("\033[H\033[J", end="")
+    # pass
 
 
 if __name__ == '__main__':
@@ -258,7 +261,11 @@ if __name__ == '__main__':
         away_team_nivel_def = home_goals_against_home_average / away_league_goals_average
         away_goals_expected = away_team_nivel_atk * away_team_nivel_def * away_league_goals_average
 
-        return home_goals_expected + away_goals_expected
+        return {
+            'expected_goals': round(home_goals_expected + away_goals_expected, 1),
+            'home_goals_expected': round(home_goals_expected, 1),
+            'away_goals_expected': round(away_goals_expected, 1)
+        }
 
         # print('equipos locales', home_league_goals_average)
         # print('equipos visitantes', away_league_goals_average)
@@ -302,8 +309,10 @@ if __name__ == '__main__':
     # FETCH TEAM LIST AND SEASON INFORMATION
     team_list = {}
     team_list_table_data = []
+    current_round = None
     response_team_list = sportradar.fetch_team_list_by_season(season_id)
     if response_team_list['error'] == False:
+        current_round = int(response_team_list['response']['doc'][0]['data']['tables'][0]['currentround'])
         team_list_table_data = response_team_list['response']['doc'][0]['data']['tables'][0]['tablerows']
 
         for i, team_row in enumerate(team_list_table_data):
@@ -312,12 +321,26 @@ if __name__ == '__main__':
                 'reference': i
             }
 
+
+    print(current_round)
     match_list_by_season = sportradar.fetch_matches_by_season(season_id)
+    # print('match_list_by_season', match_list_by_season)
     if match_list_by_season['error'] == False:
         matches = match_list_by_season['response']['doc'][0]['data']['matches']
 
+
+        # for match in matches:
+        #     if match['round']
+
+
+
+
+
+
+
+        
         now = datetime.datetime.now()
-        current_round = None
+        # current_round = 1000
         next_matches = []
         for match in matches:
             match_home_result = match['result']['home']
@@ -329,17 +352,24 @@ if __name__ == '__main__':
             match_time_year = int(f'20{match_time_splitted[2]}')
             match_time = datetime.date(match_time_year, match_time_month, match_time_day)
 
-            if (match['result']['home'] == None and match['result']['away'] == None) and (match_time.year >= now.year and match_time.month >= now.month and match_time.day >= now.day):
-                if current_round == None:
-                    current_round = match['round']
+            if int(match['round']) == current_round or int(match['round']) == current_round + 1:
+                next_matches.append(match)
 
-                if match['round'] == current_round:
-                    next_matches.append(match)
+
+            # if (match['result']['home'] == None and match['result']['away'] == None):
+
+            #     if current_round > int(match['round']):
+            #         current_round = int(match['round'])
+                
+            #     if int(match['round']) == current_round or (current_round + 1) == int(match['round']):
+            #         next_matches.append(match)
+
                     
         
         clear_console()
         print(f'THE NEXT MATCHES FOR ROUND {current_round} ARE:')
         print('***********************************************')
+
         for match in next_matches:
             match_time = match['time']['date']
             home_team_data_position = team_list[match['teams']['home']['_id']]['reference']
@@ -352,10 +382,18 @@ if __name__ == '__main__':
             away_team_name = match['teams']['away']['name']
 
             try:
-                expected_goals = round(calculate_over_under_goals(home_team_data, away_team_data), 1)
+
+                expected_goals_calculate = calculate_over_under_goals(home_team_data, away_team_data)
+                expected_goals = expected_goals_calculate['expected_goals']
+                expected_goals_home = expected_goals_calculate['home_goals_expected']
+                expected_goals_away = expected_goals_calculate['away_goals_expected']
+
+                print(bcolors.WARNING + f"ROUND {match['round']}" + bcolors.ENDC)
                 print(f'NAME: {home_team_name} VS {away_team_name}')
-                print(f'DATE: {match_time}')
+                print(f'DATE: ' + bcolors.OKCYAN + f"{match_time}" + bcolors.ENDC)
                 print(f'SPECTED_GOALS: {expected_goals}')
+                print(f'SPECTED_GOALS_HOME: {expected_goals_home}')
+                print(f'SPECTED_GOALS_AWAY: {expected_goals_away}')
 
                 if expected_goals >= 3:
                     if expected_goals >= 4:
