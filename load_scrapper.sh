@@ -1,6 +1,6 @@
 #!/bin/bash
 
-scrappers=(fotmob, sportradar)
+scrappers=(fotmob, goal, sportradar)
 
 execute_scrapper() {
     echo "loading virtualenvironment for python"

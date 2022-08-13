@@ -1,0 +1,26 @@
+{
+    "season_active": [
+        {
+            "id": "84048",
+            "name": "LaLiga 21/22",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/84048"
+        },
+        {
+            "id": "83706",
+            "name": "Premier League 21/22",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93741"
+        },
+        {
+            "id": "83972",
+            "name": "Liga 1 21/22",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/83972"
+        },
+
+        
+        {
+            "id": "93847",
+            "name": "Argentina - Primera División 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847"
+        }
+    ]
+}

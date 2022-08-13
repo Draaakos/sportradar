@@ -151,3 +151,16 @@ Fech season information
 ```
 /sportradar/en/Europe:Berlin/gismo/stats_season_uniqueteamstats/{season_id}
 ```
+
+
+
+
+
+
+
+
+
+
+FASES:
+
+- Update information
