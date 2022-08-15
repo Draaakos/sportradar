@@ -9,17 +9,16 @@ from utils.scrapper import season_data
 
 
 class Sportradar:
-    def __init__(self, filename, name, season):
+    def __init__(self, country, league_name, season):
         self.connection = make_mongo_con().sportradar
+        self.country = country
+        self.league_name = league_name
         self.season = season
-        self.filename = filename
-        self.name = name
         self.interval_for_request = 10
 
-
     def start(self):
-        league_name = season_data(self.season)
-        self._insert_data_to_mongodb(league_name, self.season)
+        season_data(self.country, self.league_name, self.season)
+        self._insert_data_to_mongodb(self.country, self.league_name, self.season)
 
 
     # def _start(self):
@@ -55,10 +54,9 @@ class Sportradar:
 
 
 
-    def _insert_data_to_mongodb(self, league_name, season):
-        with open(f'data/{league_name}/{season}.json') as json_file:
+    def _insert_data_to_mongodb(self, country, league_name, season):
+        with open(f'data/{country}/{league_name}/{season}.json') as json_file:
             data = json.load(json_file)
-
 
 
             for team in data['teams']:

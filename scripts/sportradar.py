@@ -9,6 +9,7 @@ if __name__ == '__main__':
             season_id = season['id']
             season_name = season['name']
             season_url = season['url']
+            season_country = season['country']
             
-            sportradar = Sportradar('sportradar', __name__, season_id)
+            sportradar = Sportradar(season_country, season_name, season_id)
             sportradar.start()

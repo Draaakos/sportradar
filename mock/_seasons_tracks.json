@@ -22,5 +22,19 @@
             "name": "Argentina - Primera División 2022",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847"
         }
+    ],
+    "season_active": [
+        {
+            "id": 93847,
+            "name": "Primera División 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847",
+            "country": "Argentina"
+        },
+        {
+            "id": 82448,
+            "name": "Primera División 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90757",
+            "country": "Chile"
+        }
     ]
 }

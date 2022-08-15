@@ -1,0 +1,6587 @@
+{
+    "teams": [
+        {
+            "id": 2963,
+            "name": "Den Bosch",
+            "medium_name": "FC Den Bosch",
+            "abbr": "DBO"
+        },
+        {
+            "id": 2994,
+            "name": "Eindhoven",
+            "medium_name": "FC Eindhoven",
+            "abbr": "EIN"
+        },
+        {
+            "id": 2973,
+            "name": "Dordrecht",
+            "medium_name": "FC Dordrecht",
+            "abbr": "DOR"
+        },
+        {
+            "id": 2954,
+            "name": "Roda",
+            "medium_name": "Roda JC Kirchrath",
+            "abbr": "ROD"
+        },
+        {
+            "id": 2977,
+            "name": "Heracles",
+            "medium_name": "Heracles Almelo",
+            "abbr": "HER"
+        },
+        {
+            "id": 2966,
+            "name": "Den Haag",
+            "medium_name": "ADO Den Haag",
+            "abbr": "ADO"
+        },
+        {
+            "id": 2947,
+            "name": "Breda",
+            "medium_name": "NAC Breda",
+            "abbr": "BRE"
+        },
+        {
+            "id": 2974,
+            "name": "Helmond",
+            "medium_name": "Helmond Sport",
+            "abbr": "HEL"
+        },
+        {
+            "id": 2978,
+            "name": "Oss",
+            "medium_name": "TOP Oss",
+            "abbr": "OSS"
+        },
+        {
+            "id": 53067,
+            "name": "Jong Utrecht",
+            "medium_name": "Jong FC Utrecht",
+            "abbr": "UTR"
+        },
+        {
+            "id": 2980,
+            "name": "Venlo",
+            "medium_name": "VVV Venlo",
+            "abbr": "VEN"
+        },
+        {
+            "id": 2990,
+            "name": "Almere",
+            "medium_name": "Almere City FC",
+            "abbr": "ALM"
+        },
+        {
+            "id": 2961,
+            "name": "Willem II",
+            "medium_name": "Willem II Tilburg",
+            "abbr": "WIL"
+        },
+        {
+            "id": 46168,
+            "name": "Jong PSV",
+            "medium_name": "Jong PSV Eindhoven",
+            "abbr": "PSV"
+        },
+        {
+            "id": 2971,
+            "name": "Zwolle",
+            "medium_name": "PEC Zwolle",
+            "abbr": "ZWO"
+        },
+        {
+            "id": 2949,
+            "name": "De Graafschap",
+            "medium_name": "De Graafschap",
+            "abbr": "GRA"
+        },
+        {
+            "id": 46160,
+            "name": "Ajax Amsterdam",
+            "medium_name": "Ajax Amsterdam",
+            "abbr": "AJA"
+        },
+        {
+            "id": 2972,
+            "name": "Telstar",
+            "medium_name": "SC Telstar",
+            "abbr": "TEL"
+        },
+        {
+            "id": 46161,
+            "name": "AZ Alkmaar",
+            "medium_name": "AZ Alkmaar",
+            "abbr": "JAZ"
+        },
+        {
+            "id": 2976,
+            "name": "Maastricht",
+            "medium_name": "MVV Maastricht",
+            "abbr": "MAA"
+        }
+    ],
+    "matches": {
+        "34137915": {
+            "season": 94441,
+            "match": 34137915,
+            "round": 1,
+            "home": 2963,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137917": {
+            "season": 94441,
+            "match": 34137917,
+            "round": 1,
+            "home": 2973,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137919": {
+            "season": 94441,
+            "match": 34137919,
+            "round": 1,
+            "home": 2977,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137921": {
+            "season": 94441,
+            "match": 34137921,
+            "round": 1,
+            "home": 2947,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137923": {
+            "season": 94441,
+            "match": 34137923,
+            "round": 1,
+            "home": 2978,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137925": {
+            "season": 94441,
+            "match": 34137925,
+            "round": 1,
+            "home": 2980,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137927": {
+            "season": 94441,
+            "match": 34137927,
+            "round": 1,
+            "home": 2961,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659722400
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137929": {
+            "season": 94441,
+            "match": 34137929,
+            "round": 1,
+            "home": 2971,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "07/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659867300
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137931": {
+            "season": 94441,
+            "match": 34137931,
+            "round": 1,
+            "home": 46160,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659981600
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137933": {
+            "season": 94441,
+            "match": 34137933,
+            "round": 1,
+            "home": 46161,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1659981600
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137935": {
+            "season": 94441,
+            "match": 34137935,
+            "round": 2,
+            "home": 2990,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137937": {
+            "season": 94441,
+            "match": 34137937,
+            "round": 2,
+            "home": 2949,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137939": {
+            "season": 94441,
+            "match": 34137939,
+            "round": 2,
+            "home": 2994,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137941": {
+            "season": 94441,
+            "match": 34137941,
+            "round": 2,
+            "home": 2974,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137943": {
+            "season": 94441,
+            "match": 34137943,
+            "round": 2,
+            "home": 2954,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137945": {
+            "season": 94441,
+            "match": 34137945,
+            "round": 2,
+            "home": 2972,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660327200
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137947": {
+            "season": 94441,
+            "match": 34137947,
+            "round": 2,
+            "home": 2966,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "14/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660472100
+            },
+            "finished": true,
+            "data": {}
+        },
+        "34137949": {
+            "season": 94441,
+            "match": 34137949,
+            "round": 2,
+            "home": 53067,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "15/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660586400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137951": {
+            "season": 94441,
+            "match": 34137951,
+            "round": 2,
+            "home": 46168,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "15/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660586400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137953": {
+            "season": 94441,
+            "match": 34137953,
+            "round": 2,
+            "home": 2976,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "15/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660586400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137955": {
+            "season": 94441,
+            "match": 34137955,
+            "round": 3,
+            "home": 2963,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137957": {
+            "season": 94441,
+            "match": 34137957,
+            "round": 3,
+            "home": 2973,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137959": {
+            "season": 94441,
+            "match": 34137959,
+            "round": 3,
+            "home": 2974,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137961": {
+            "season": 94441,
+            "match": 34137961,
+            "round": 3,
+            "home": 2976,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137963": {
+            "season": 94441,
+            "match": 34137963,
+            "round": 3,
+            "home": 2947,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137965": {
+            "season": 94441,
+            "match": 34137965,
+            "round": 3,
+            "home": 2961,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1660932000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137967": {
+            "season": 94441,
+            "match": 34137967,
+            "round": 3,
+            "home": 2980,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "21/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661076900
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137969": {
+            "season": 94441,
+            "match": 34137969,
+            "round": 3,
+            "home": 46160,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "22/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661191200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137971": {
+            "season": 94441,
+            "match": 34137971,
+            "round": 3,
+            "home": 46161,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "22/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661191200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137973": {
+            "season": 94441,
+            "match": 34137973,
+            "round": 3,
+            "home": 46168,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "22/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661191200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137975": {
+            "season": 94441,
+            "match": 34137975,
+            "round": 4,
+            "home": 2990,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137977": {
+            "season": 94441,
+            "match": 34137977,
+            "round": 4,
+            "home": 2994,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137979": {
+            "season": 94441,
+            "match": 34137979,
+            "round": 4,
+            "home": 2949,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137983": {
+            "season": 94441,
+            "match": 34137983,
+            "round": 4,
+            "home": 2978,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137985": {
+            "season": 94441,
+            "match": 34137985,
+            "round": 4,
+            "home": 2971,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137987": {
+            "season": 94441,
+            "match": 34137987,
+            "round": 4,
+            "home": 2954,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137989": {
+            "season": 94441,
+            "match": 34137989,
+            "round": 4,
+            "home": 2972,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "26/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661536800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137991": {
+            "season": 94441,
+            "match": 34137991,
+            "round": 4,
+            "home": 2966,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "28/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661681700
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137981": {
+            "season": 94441,
+            "match": 34137981,
+            "round": 4,
+            "home": 2977,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "29/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661796000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137993": {
+            "season": 94441,
+            "match": 34137993,
+            "round": 4,
+            "home": 53067,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "29/08/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1661796000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138001": {
+            "season": 94441,
+            "match": 34138001,
+            "round": 5,
+            "home": 2972,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "01/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662055200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137995": {
+            "season": 94441,
+            "match": 34137995,
+            "round": 5,
+            "home": 2963,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "02/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662141600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137997": {
+            "season": 94441,
+            "match": 34137997,
+            "round": 5,
+            "home": 2974,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "02/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662141600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34137999": {
+            "season": 94441,
+            "match": 34137999,
+            "round": 5,
+            "home": 2947,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "02/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662141600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138003": {
+            "season": 94441,
+            "match": 34138003,
+            "round": 5,
+            "home": 2980,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "02/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662141600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138005": {
+            "season": 94441,
+            "match": 34138005,
+            "round": 5,
+            "home": 2961,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "02/09/22",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1662141600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138007": {
+            "season": 94441,
+            "match": 34138007,
+            "round": 5,
+            "home": 2976,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "07:15",
+                "date": "04/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662286500
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138009": {
+            "season": 94441,
+            "match": 34138009,
+            "round": 5,
+            "home": 46160,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "05/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662400800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138011": {
+            "season": 94441,
+            "match": 34138011,
+            "round": 5,
+            "home": 46161,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "05/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662400800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138013": {
+            "season": 94441,
+            "match": 34138013,
+            "round": 5,
+            "home": 46168,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "05/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662400800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138015": {
+            "season": 94441,
+            "match": 34138015,
+            "round": 6,
+            "home": 2966,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138017": {
+            "season": 94441,
+            "match": 34138017,
+            "round": 6,
+            "home": 2990,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138019": {
+            "season": 94441,
+            "match": 34138019,
+            "round": 6,
+            "home": 2973,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138021": {
+            "season": 94441,
+            "match": 34138021,
+            "round": 6,
+            "home": 2994,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138023": {
+            "season": 94441,
+            "match": 34138023,
+            "round": 6,
+            "home": 2949,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138025": {
+            "season": 94441,
+            "match": 34138025,
+            "round": 6,
+            "home": 2977,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138027": {
+            "season": 94441,
+            "match": 34138027,
+            "round": 6,
+            "home": 2978,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138029": {
+            "season": 94441,
+            "match": 34138029,
+            "round": 6,
+            "home": 2971,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138031": {
+            "season": 94441,
+            "match": 34138031,
+            "round": 6,
+            "home": 2954,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138033": {
+            "season": 94441,
+            "match": 34138033,
+            "round": 6,
+            "home": 53067,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "09/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1662746400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138055": {
+            "season": 94441,
+            "match": 34138055,
+            "round": 8,
+            "home": 46160,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138057": {
+            "season": 94441,
+            "match": 34138057,
+            "round": 8,
+            "home": 2990,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138059": {
+            "season": 94441,
+            "match": 34138059,
+            "round": 8,
+            "home": 46161,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138061": {
+            "season": 94441,
+            "match": 34138061,
+            "round": 8,
+            "home": 46168,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138063": {
+            "season": 94441,
+            "match": 34138063,
+            "round": 8,
+            "home": 2954,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138065": {
+            "season": 94441,
+            "match": 34138065,
+            "round": 8,
+            "home": 53067,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "12/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663005600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138035": {
+            "season": 94441,
+            "match": 34138035,
+            "round": 7,
+            "home": 2994,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138037": {
+            "season": 94441,
+            "match": 34138037,
+            "round": 7,
+            "home": 2949,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138039": {
+            "season": 94441,
+            "match": 34138039,
+            "round": 7,
+            "home": 2974,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138041": {
+            "season": 94441,
+            "match": 34138041,
+            "round": 7,
+            "home": 2976,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138043": {
+            "season": 94441,
+            "match": 34138043,
+            "round": 7,
+            "home": 2947,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138045": {
+            "season": 94441,
+            "match": 34138045,
+            "round": 7,
+            "home": 2971,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138047": {
+            "season": 94441,
+            "match": 34138047,
+            "round": 7,
+            "home": 2972,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138049": {
+            "season": 94441,
+            "match": 34138049,
+            "round": 7,
+            "home": 2980,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138051": {
+            "season": 94441,
+            "match": 34138051,
+            "round": 7,
+            "home": 2961,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "16/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663351200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138053": {
+            "season": 94441,
+            "match": 34138053,
+            "round": 7,
+            "home": 2963,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "11:30",
+                "date": "17/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663425000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138067": {
+            "season": 94441,
+            "match": 34138067,
+            "round": 8,
+            "home": 2973,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "23/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663956000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138069": {
+            "season": 94441,
+            "match": 34138069,
+            "round": 8,
+            "home": 2977,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "23/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663956000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138071": {
+            "season": 94441,
+            "match": 34138071,
+            "round": 8,
+            "home": 2978,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "23/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663956000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138073": {
+            "season": 94441,
+            "match": 34138073,
+            "round": 8,
+            "home": 2980,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "23/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1663956000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138075": {
+            "season": 94441,
+            "match": 34138075,
+            "round": 9,
+            "home": 2966,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138077": {
+            "season": 94441,
+            "match": 34138077,
+            "round": 9,
+            "home": 2990,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138079": {
+            "season": 94441,
+            "match": 34138079,
+            "round": 9,
+            "home": 2963,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138081": {
+            "season": 94441,
+            "match": 34138081,
+            "round": 9,
+            "home": 2994,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138083": {
+            "season": 94441,
+            "match": 34138083,
+            "round": 9,
+            "home": 2949,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138085": {
+            "season": 94441,
+            "match": 34138085,
+            "round": 9,
+            "home": 2974,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138087": {
+            "season": 94441,
+            "match": 34138087,
+            "round": 9,
+            "home": 2976,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138089": {
+            "season": 94441,
+            "match": 34138089,
+            "round": 9,
+            "home": 2947,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138091": {
+            "season": 94441,
+            "match": 34138091,
+            "round": 9,
+            "home": 2971,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138093": {
+            "season": 94441,
+            "match": 34138093,
+            "round": 9,
+            "home": 2972,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "30/09/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1664560800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138095": {
+            "season": 94441,
+            "match": 34138095,
+            "round": 10,
+            "home": 2966,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138097": {
+            "season": 94441,
+            "match": 34138097,
+            "round": 10,
+            "home": 46160,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138099": {
+            "season": 94441,
+            "match": 34138099,
+            "round": 10,
+            "home": 46161,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138101": {
+            "season": 94441,
+            "match": 34138101,
+            "round": 10,
+            "home": 2973,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138103": {
+            "season": 94441,
+            "match": 34138103,
+            "round": 10,
+            "home": 2977,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138105": {
+            "season": 94441,
+            "match": 34138105,
+            "round": 10,
+            "home": 2978,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138107": {
+            "season": 94441,
+            "match": 34138107,
+            "round": 10,
+            "home": 46168,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138109": {
+            "season": 94441,
+            "match": 34138109,
+            "round": 10,
+            "home": 2954,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138111": {
+            "season": 94441,
+            "match": 34138111,
+            "round": 10,
+            "home": 53067,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138113": {
+            "season": 94441,
+            "match": 34138113,
+            "round": 10,
+            "home": 2961,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "07/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665165600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138115": {
+            "season": 94441,
+            "match": 34138115,
+            "round": 11,
+            "home": 2990,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138117": {
+            "season": 94441,
+            "match": 34138117,
+            "round": 11,
+            "home": 2963,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138119": {
+            "season": 94441,
+            "match": 34138119,
+            "round": 11,
+            "home": 2994,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138121": {
+            "season": 94441,
+            "match": 34138121,
+            "round": 11,
+            "home": 2949,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138123": {
+            "season": 94441,
+            "match": 34138123,
+            "round": 11,
+            "home": 2974,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138125": {
+            "season": 94441,
+            "match": 34138125,
+            "round": 11,
+            "home": 2976,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138127": {
+            "season": 94441,
+            "match": 34138127,
+            "round": 11,
+            "home": 2947,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138129": {
+            "season": 94441,
+            "match": 34138129,
+            "round": 11,
+            "home": 2971,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138131": {
+            "season": 94441,
+            "match": 34138131,
+            "round": 11,
+            "home": 2972,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138133": {
+            "season": 94441,
+            "match": 34138133,
+            "round": 11,
+            "home": 2980,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "14/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1665770400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138135": {
+            "season": 94441,
+            "match": 34138135,
+            "round": 12,
+            "home": 2966,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138137": {
+            "season": 94441,
+            "match": 34138137,
+            "round": 12,
+            "home": 2973,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138139": {
+            "season": 94441,
+            "match": 34138139,
+            "round": 12,
+            "home": 2977,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138141": {
+            "season": 94441,
+            "match": 34138141,
+            "round": 12,
+            "home": 2976,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138143": {
+            "season": 94441,
+            "match": 34138143,
+            "round": 12,
+            "home": 2978,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138145": {
+            "season": 94441,
+            "match": 34138145,
+            "round": 12,
+            "home": 2961,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "21/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666375200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138147": {
+            "season": 94441,
+            "match": 34138147,
+            "round": 12,
+            "home": 46160,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "24/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666634400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138149": {
+            "season": 94441,
+            "match": 34138149,
+            "round": 12,
+            "home": 46161,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "24/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666634400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138151": {
+            "season": 94441,
+            "match": 34138151,
+            "round": 12,
+            "home": 46168,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "24/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666634400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138153": {
+            "season": 94441,
+            "match": 34138153,
+            "round": 12,
+            "home": 53067,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "24/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666634400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138155": {
+            "season": 94441,
+            "match": 34138155,
+            "round": 13,
+            "home": 2990,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138157": {
+            "season": 94441,
+            "match": 34138157,
+            "round": 13,
+            "home": 2963,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138159": {
+            "season": 94441,
+            "match": 34138159,
+            "round": 13,
+            "home": 2994,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138161": {
+            "season": 94441,
+            "match": 34138161,
+            "round": 13,
+            "home": 2949,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138163": {
+            "season": 94441,
+            "match": 34138163,
+            "round": 13,
+            "home": 2974,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138165": {
+            "season": 94441,
+            "match": 34138165,
+            "round": 13,
+            "home": 2971,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138167": {
+            "season": 94441,
+            "match": 34138167,
+            "round": 13,
+            "home": 2954,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138169": {
+            "season": 94441,
+            "match": 34138169,
+            "round": 13,
+            "home": 2972,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138171": {
+            "season": 94441,
+            "match": 34138171,
+            "round": 13,
+            "home": 2980,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "28/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1666980000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138173": {
+            "season": 94441,
+            "match": 34138173,
+            "round": 13,
+            "home": 46160,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "31/10/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667242800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138175": {
+            "season": 94441,
+            "match": 34138175,
+            "round": 14,
+            "home": 2966,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138177": {
+            "season": 94441,
+            "match": 34138177,
+            "round": 14,
+            "home": 2963,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138179": {
+            "season": 94441,
+            "match": 34138179,
+            "round": 14,
+            "home": 2973,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138181": {
+            "season": 94441,
+            "match": 34138181,
+            "round": 14,
+            "home": 2976,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138183": {
+            "season": 94441,
+            "match": 34138183,
+            "round": 14,
+            "home": 2947,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138185": {
+            "season": 94441,
+            "match": 34138185,
+            "round": 14,
+            "home": 2978,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138187": {
+            "season": 94441,
+            "match": 34138187,
+            "round": 14,
+            "home": 2961,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "04/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667588400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138189": {
+            "season": 94441,
+            "match": 34138189,
+            "round": 14,
+            "home": 46161,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "07/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667847600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138191": {
+            "season": 94441,
+            "match": 34138191,
+            "round": 14,
+            "home": 46168,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "07/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667847600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138193": {
+            "season": 94441,
+            "match": 34138193,
+            "round": 14,
+            "home": 53067,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "07/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1667847600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138195": {
+            "season": 94441,
+            "match": 34138195,
+            "round": 15,
+            "home": 2990,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138197": {
+            "season": 94441,
+            "match": 34138197,
+            "round": 15,
+            "home": 2949,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138199": {
+            "season": 94441,
+            "match": 34138199,
+            "round": 15,
+            "home": 2971,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138201": {
+            "season": 94441,
+            "match": 34138201,
+            "round": 15,
+            "home": 2954,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138203": {
+            "season": 94441,
+            "match": 34138203,
+            "round": 15,
+            "home": 2972,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138205": {
+            "season": 94441,
+            "match": 34138205,
+            "round": 15,
+            "home": 2978,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138207": {
+            "season": 94441,
+            "match": 34138207,
+            "round": 15,
+            "home": 2980,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "11/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668193200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138209": {
+            "season": 94441,
+            "match": 34138209,
+            "round": 15,
+            "home": 2977,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "13/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668338100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138211": {
+            "season": 94441,
+            "match": 34138211,
+            "round": 15,
+            "home": 46160,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "14/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668452400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138213": {
+            "season": 94441,
+            "match": 34138213,
+            "round": 15,
+            "home": 53067,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "14/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668452400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138215": {
+            "season": 94441,
+            "match": 34138215,
+            "round": 16,
+            "home": 46168,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:45",
+                "date": "17/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668707100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138217": {
+            "season": 94441,
+            "match": 34138217,
+            "round": 16,
+            "home": 46161,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "17:00",
+                "date": "17/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668715200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138219": {
+            "season": 94441,
+            "match": 34138219,
+            "round": 16,
+            "home": 2994,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:45",
+                "date": "18/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668793500
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138221": {
+            "season": 94441,
+            "match": 34138221,
+            "round": 16,
+            "home": 2974,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "17:00",
+                "date": "18/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668801600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138223": {
+            "season": 94441,
+            "match": 34138223,
+            "round": 16,
+            "home": 2963,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "12:30",
+                "date": "19/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668871800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138225": {
+            "season": 94441,
+            "match": 34138225,
+            "round": 16,
+            "home": 2977,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:45",
+                "date": "19/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668879900
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138227": {
+            "season": 94441,
+            "match": 34138227,
+            "round": 16,
+            "home": 2947,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "17:00",
+                "date": "19/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668888000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138229": {
+            "season": 94441,
+            "match": 34138229,
+            "round": 16,
+            "home": 2973,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "20/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668951000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138231": {
+            "season": 94441,
+            "match": 34138231,
+            "round": 16,
+            "home": 2976,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "12:45",
+                "date": "20/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668959100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138233": {
+            "season": 94441,
+            "match": 34138233,
+            "round": 16,
+            "home": 2966,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/11/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1668970800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138235": {
+            "season": 94441,
+            "match": 34138235,
+            "round": 17,
+            "home": 2990,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670757300
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138237": {
+            "season": 94441,
+            "match": 34138237,
+            "round": 17,
+            "home": 2949,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138239": {
+            "season": 94441,
+            "match": 34138239,
+            "round": 17,
+            "home": 46160,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138241": {
+            "season": 94441,
+            "match": 34138241,
+            "round": 17,
+            "home": 2972,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138243": {
+            "season": 94441,
+            "match": 34138243,
+            "round": 17,
+            "home": 2978,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138245": {
+            "season": 94441,
+            "match": 34138245,
+            "round": 17,
+            "home": 2980,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138247": {
+            "season": 94441,
+            "match": 34138247,
+            "round": 17,
+            "home": 2961,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138249": {
+            "season": 94441,
+            "match": 34138249,
+            "round": 17,
+            "home": 2954,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "11/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670765400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138251": {
+            "season": 94441,
+            "match": 34138251,
+            "round": 17,
+            "home": 46161,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:45",
+                "date": "12/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670867100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138253": {
+            "season": 94441,
+            "match": 34138253,
+            "round": 17,
+            "home": 2971,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "17:00",
+                "date": "12/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1670875200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138255": {
+            "season": 94441,
+            "match": 34138255,
+            "round": 18,
+            "home": 46168,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "15/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671130800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138257": {
+            "season": 94441,
+            "match": 34138257,
+            "round": 18,
+            "home": 2966,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138259": {
+            "season": 94441,
+            "match": 34138259,
+            "round": 18,
+            "home": 2994,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138261": {
+            "season": 94441,
+            "match": 34138261,
+            "round": 18,
+            "home": 2949,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138263": {
+            "season": 94441,
+            "match": 34138263,
+            "round": 18,
+            "home": 2974,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138265": {
+            "season": 94441,
+            "match": 34138265,
+            "round": 18,
+            "home": 2977,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138267": {
+            "season": 94441,
+            "match": 34138267,
+            "round": 18,
+            "home": 2947,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138269": {
+            "season": 94441,
+            "match": 34138269,
+            "round": 18,
+            "home": 2954,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138271": {
+            "season": 94441,
+            "match": 34138271,
+            "round": 18,
+            "home": 2972,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138273": {
+            "season": 94441,
+            "match": 34138273,
+            "round": 18,
+            "home": 53067,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/12/22",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1671217200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138275": {
+            "season": 94441,
+            "match": 34138275,
+            "round": 19,
+            "home": 46160,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138277": {
+            "season": 94441,
+            "match": 34138277,
+            "round": 19,
+            "home": 46161,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138279": {
+            "season": 94441,
+            "match": 34138279,
+            "round": 19,
+            "home": 2963,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138281": {
+            "season": 94441,
+            "match": 34138281,
+            "round": 19,
+            "home": 2973,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138283": {
+            "season": 94441,
+            "match": 34138283,
+            "round": 19,
+            "home": 2976,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138285": {
+            "season": 94441,
+            "match": 34138285,
+            "round": 19,
+            "home": 2947,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138287": {
+            "season": 94441,
+            "match": 34138287,
+            "round": 19,
+            "home": 2978,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138289": {
+            "season": 94441,
+            "match": 34138289,
+            "round": 19,
+            "home": 2971,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138291": {
+            "season": 94441,
+            "match": 34138291,
+            "round": 19,
+            "home": 2980,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138293": {
+            "season": 94441,
+            "match": 34138293,
+            "round": 19,
+            "home": 2961,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673031600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138295": {
+            "season": 94441,
+            "match": 34138295,
+            "round": 20,
+            "home": 2966,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138297": {
+            "season": 94441,
+            "match": 34138297,
+            "round": 20,
+            "home": 2990,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138299": {
+            "season": 94441,
+            "match": 34138299,
+            "round": 20,
+            "home": 2949,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138301": {
+            "season": 94441,
+            "match": 34138301,
+            "round": 20,
+            "home": 2994,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138303": {
+            "season": 94441,
+            "match": 34138303,
+            "round": 20,
+            "home": 2974,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138305": {
+            "season": 94441,
+            "match": 34138305,
+            "round": 20,
+            "home": 2954,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138307": {
+            "season": 94441,
+            "match": 34138307,
+            "round": 20,
+            "home": 2972,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673636400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138309": {
+            "season": 94441,
+            "match": 34138309,
+            "round": 20,
+            "home": 2977,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "15/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673781300
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138311": {
+            "season": 94441,
+            "match": 34138311,
+            "round": 20,
+            "home": 53067,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673895600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138313": {
+            "season": 94441,
+            "match": 34138313,
+            "round": 20,
+            "home": 46168,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "16/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1673895600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138315": {
+            "season": 94441,
+            "match": 34138315,
+            "round": 21,
+            "home": 2990,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138317": {
+            "season": 94441,
+            "match": 34138317,
+            "round": 21,
+            "home": 2963,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138319": {
+            "season": 94441,
+            "match": 34138319,
+            "round": 21,
+            "home": 2976,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138321": {
+            "season": 94441,
+            "match": 34138321,
+            "round": 21,
+            "home": 2971,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138323": {
+            "season": 94441,
+            "match": 34138323,
+            "round": 21,
+            "home": 2978,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138325": {
+            "season": 94441,
+            "match": 34138325,
+            "round": 21,
+            "home": 2961,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674241200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138327": {
+            "season": 94441,
+            "match": 34138327,
+            "round": 21,
+            "home": 2973,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "12:30",
+                "date": "21/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674315000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138329": {
+            "season": 94441,
+            "match": 34138329,
+            "round": 21,
+            "home": 2966,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "22/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674386100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138331": {
+            "season": 94441,
+            "match": 34138331,
+            "round": 21,
+            "home": 46160,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "23/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674500400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138333": {
+            "season": 94441,
+            "match": 34138333,
+            "round": 21,
+            "home": 46161,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "23/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674500400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138335": {
+            "season": 94441,
+            "match": 34138335,
+            "round": 22,
+            "home": 2963,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138337": {
+            "season": 94441,
+            "match": 34138337,
+            "round": 22,
+            "home": 2994,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138339": {
+            "season": 94441,
+            "match": 34138339,
+            "round": 22,
+            "home": 2974,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138341": {
+            "season": 94441,
+            "match": 34138341,
+            "round": 22,
+            "home": 2947,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138343": {
+            "season": 94441,
+            "match": 34138343,
+            "round": 22,
+            "home": 2971,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138345": {
+            "season": 94441,
+            "match": 34138345,
+            "round": 22,
+            "home": 2954,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138347": {
+            "season": 94441,
+            "match": 34138347,
+            "round": 22,
+            "home": 2972,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138349": {
+            "season": 94441,
+            "match": 34138349,
+            "round": 22,
+            "home": 2980,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1674846000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138351": {
+            "season": 94441,
+            "match": 34138351,
+            "round": 22,
+            "home": 46168,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "30/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675105200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138353": {
+            "season": 94441,
+            "match": 34138353,
+            "round": 22,
+            "home": 53067,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "30/01/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675105200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138355": {
+            "season": 94441,
+            "match": 34138355,
+            "round": 23,
+            "home": 2966,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138357": {
+            "season": 94441,
+            "match": 34138357,
+            "round": 23,
+            "home": 2990,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138359": {
+            "season": 94441,
+            "match": 34138359,
+            "round": 23,
+            "home": 2973,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138361": {
+            "season": 94441,
+            "match": 34138361,
+            "round": 23,
+            "home": 2949,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138363": {
+            "season": 94441,
+            "match": 34138363,
+            "round": 23,
+            "home": 2977,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138365": {
+            "season": 94441,
+            "match": 34138365,
+            "round": 23,
+            "home": 2978,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138367": {
+            "season": 94441,
+            "match": 34138367,
+            "round": 23,
+            "home": 2961,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675450800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138369": {
+            "season": 94441,
+            "match": 34138369,
+            "round": 23,
+            "home": 2954,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "10:30",
+                "date": "05/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675603800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138371": {
+            "season": 94441,
+            "match": 34138371,
+            "round": 23,
+            "home": 46160,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675710000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138373": {
+            "season": 94441,
+            "match": 34138373,
+            "round": 23,
+            "home": 46161,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1675710000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138375": {
+            "season": 94441,
+            "match": 34138375,
+            "round": 24,
+            "home": 2963,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138377": {
+            "season": 94441,
+            "match": 34138377,
+            "round": 24,
+            "home": 2994,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138379": {
+            "season": 94441,
+            "match": 34138379,
+            "round": 24,
+            "home": 2974,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138381": {
+            "season": 94441,
+            "match": 34138381,
+            "round": 24,
+            "home": 2976,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138383": {
+            "season": 94441,
+            "match": 34138383,
+            "round": 24,
+            "home": 2947,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138385": {
+            "season": 94441,
+            "match": 34138385,
+            "round": 24,
+            "home": 2971,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138387": {
+            "season": 94441,
+            "match": 34138387,
+            "round": 24,
+            "home": 2980,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138389": {
+            "season": 94441,
+            "match": 34138389,
+            "round": 24,
+            "home": 2961,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676055600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138391": {
+            "season": 94441,
+            "match": 34138391,
+            "round": 24,
+            "home": 46168,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676314800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138393": {
+            "season": 94441,
+            "match": 34138393,
+            "round": 24,
+            "home": 53067,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676314800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138395": {
+            "season": 94441,
+            "match": 34138395,
+            "round": 25,
+            "home": 2966,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138397": {
+            "season": 94441,
+            "match": 34138397,
+            "round": 25,
+            "home": 2990,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138399": {
+            "season": 94441,
+            "match": 34138399,
+            "round": 25,
+            "home": 2973,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138401": {
+            "season": 94441,
+            "match": 34138401,
+            "round": 25,
+            "home": 2977,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138403": {
+            "season": 94441,
+            "match": 34138403,
+            "round": 25,
+            "home": 2972,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138405": {
+            "season": 94441,
+            "match": 34138405,
+            "round": 25,
+            "home": 2978,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676660400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138407": {
+            "season": 94441,
+            "match": 34138407,
+            "round": 25,
+            "home": 2949,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "19/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676805300
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138409": {
+            "season": 94441,
+            "match": 34138409,
+            "round": 25,
+            "home": 46160,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676919600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138411": {
+            "season": 94441,
+            "match": 34138411,
+            "round": 25,
+            "home": 46161,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676919600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138413": {
+            "season": 94441,
+            "match": 34138413,
+            "round": 25,
+            "home": 53067,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1676919600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138415": {
+            "season": 94441,
+            "match": 34138415,
+            "round": 26,
+            "home": 2994,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138417": {
+            "season": 94441,
+            "match": 34138417,
+            "round": 26,
+            "home": 2974,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138419": {
+            "season": 94441,
+            "match": 34138419,
+            "round": 26,
+            "home": 2977,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138421": {
+            "season": 94441,
+            "match": 34138421,
+            "round": 26,
+            "home": 2947,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138423": {
+            "season": 94441,
+            "match": 34138423,
+            "round": 26,
+            "home": 2954,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138425": {
+            "season": 94441,
+            "match": 34138425,
+            "round": 26,
+            "home": 2980,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138427": {
+            "season": 94441,
+            "match": 34138427,
+            "round": 26,
+            "home": 2961,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677265200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138429": {
+            "season": 94441,
+            "match": 34138429,
+            "round": 26,
+            "home": 2963,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "26/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677410100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138431": {
+            "season": 94441,
+            "match": 34138431,
+            "round": 26,
+            "home": 46168,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677524400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138433": {
+            "season": 94441,
+            "match": 34138433,
+            "round": 26,
+            "home": 2976,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "27/02/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677524400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138435": {
+            "season": 94441,
+            "match": 34138435,
+            "round": 27,
+            "home": 2966,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138437": {
+            "season": 94441,
+            "match": 34138437,
+            "round": 27,
+            "home": 2973,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138439": {
+            "season": 94441,
+            "match": 34138439,
+            "round": 27,
+            "home": 2949,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138441": {
+            "season": 94441,
+            "match": 34138441,
+            "round": 27,
+            "home": 2976,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138443": {
+            "season": 94441,
+            "match": 34138443,
+            "round": 27,
+            "home": 2971,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138445": {
+            "season": 94441,
+            "match": 34138445,
+            "round": 27,
+            "home": 2972,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "03/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1677870000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138447": {
+            "season": 94441,
+            "match": 34138447,
+            "round": 27,
+            "home": 46160,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678129200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138449": {
+            "season": 94441,
+            "match": 34138449,
+            "round": 27,
+            "home": 46161,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678129200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138451": {
+            "season": 94441,
+            "match": 34138451,
+            "round": 27,
+            "home": 46168,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678129200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138453": {
+            "season": 94441,
+            "match": 34138453,
+            "round": 27,
+            "home": 53067,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "06/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678129200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138455": {
+            "season": 94441,
+            "match": 34138455,
+            "round": 28,
+            "home": 2990,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138457": {
+            "season": 94441,
+            "match": 34138457,
+            "round": 28,
+            "home": 2973,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138459": {
+            "season": 94441,
+            "match": 34138459,
+            "round": 28,
+            "home": 2994,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138461": {
+            "season": 94441,
+            "match": 34138461,
+            "round": 28,
+            "home": 2974,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138463": {
+            "season": 94441,
+            "match": 34138463,
+            "round": 28,
+            "home": 2977,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138465": {
+            "season": 94441,
+            "match": 34138465,
+            "round": 28,
+            "home": 2947,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138467": {
+            "season": 94441,
+            "match": 34138467,
+            "round": 28,
+            "home": 2978,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138469": {
+            "season": 94441,
+            "match": 34138469,
+            "round": 28,
+            "home": 2954,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138471": {
+            "season": 94441,
+            "match": 34138471,
+            "round": 28,
+            "home": 2980,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138473": {
+            "season": 94441,
+            "match": 34138473,
+            "round": 28,
+            "home": 2961,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "10/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678474800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138495": {
+            "season": 94441,
+            "match": 34138495,
+            "round": 30,
+            "home": 2990,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138497": {
+            "season": 94441,
+            "match": 34138497,
+            "round": 30,
+            "home": 2994,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138499": {
+            "season": 94441,
+            "match": 34138499,
+            "round": 30,
+            "home": 2949,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138501": {
+            "season": 94441,
+            "match": 34138501,
+            "round": 30,
+            "home": 2947,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138503": {
+            "season": 94441,
+            "match": 34138503,
+            "round": 30,
+            "home": 2954,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138505": {
+            "season": 94441,
+            "match": 34138505,
+            "round": 30,
+            "home": 53067,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "13/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1678734000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138475": {
+            "season": 94441,
+            "match": 34138475,
+            "round": 29,
+            "home": 2966,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138477": {
+            "season": 94441,
+            "match": 34138477,
+            "round": 29,
+            "home": 2963,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138479": {
+            "season": 94441,
+            "match": 34138479,
+            "round": 29,
+            "home": 2974,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138481": {
+            "season": 94441,
+            "match": 34138481,
+            "round": 29,
+            "home": 2976,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138483": {
+            "season": 94441,
+            "match": 34138483,
+            "round": 29,
+            "home": 2978,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138485": {
+            "season": 94441,
+            "match": 34138485,
+            "round": 29,
+            "home": 2971,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "17/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679079600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138487": {
+            "season": 94441,
+            "match": 34138487,
+            "round": 29,
+            "home": 2980,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "08:15",
+                "date": "19/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679224500
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138489": {
+            "season": 94441,
+            "match": 34138489,
+            "round": 29,
+            "home": 46160,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679338800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138491": {
+            "season": 94441,
+            "match": 34138491,
+            "round": 29,
+            "home": 46161,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679338800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138493": {
+            "season": 94441,
+            "match": 34138493,
+            "round": 29,
+            "home": 46168,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "20/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679338800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138507": {
+            "season": 94441,
+            "match": 34138507,
+            "round": 30,
+            "home": 2973,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679684400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138509": {
+            "season": 94441,
+            "match": 34138509,
+            "round": 30,
+            "home": 2977,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679684400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138511": {
+            "season": 94441,
+            "match": 34138511,
+            "round": 30,
+            "home": 2972,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679684400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138513": {
+            "season": 94441,
+            "match": 34138513,
+            "round": 30,
+            "home": 2961,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "16:00",
+                "date": "24/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1679684400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138515": {
+            "season": 94441,
+            "match": 34138515,
+            "round": 31,
+            "home": 2966,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138517": {
+            "season": 94441,
+            "match": 34138517,
+            "round": 31,
+            "home": 2977,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138519": {
+            "season": 94441,
+            "match": 34138519,
+            "round": 31,
+            "home": 2976,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138521": {
+            "season": 94441,
+            "match": 34138521,
+            "round": 31,
+            "home": 2978,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138523": {
+            "season": 94441,
+            "match": 34138523,
+            "round": 31,
+            "home": 2971,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138525": {
+            "season": 94441,
+            "match": 34138525,
+            "round": 31,
+            "home": 2980,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "31/03/23",
+                "tz": "-03",
+                "tzoffset": -10800,
+                "uts": 1680285600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138527": {
+            "season": 94441,
+            "match": 34138527,
+            "round": 31,
+            "home": 2963,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "02/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680430500
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138529": {
+            "season": 94441,
+            "match": 34138529,
+            "round": 31,
+            "home": 46160,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "03/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680544800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138531": {
+            "season": 94441,
+            "match": 34138531,
+            "round": 31,
+            "home": 46161,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "03/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680544800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138533": {
+            "season": 94441,
+            "match": 34138533,
+            "round": 31,
+            "home": 46168,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "03/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680544800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138535": {
+            "season": 94441,
+            "match": 34138535,
+            "round": 32,
+            "home": 2990,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138537": {
+            "season": 94441,
+            "match": 34138537,
+            "round": 32,
+            "home": 2973,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138539": {
+            "season": 94441,
+            "match": 34138539,
+            "round": 32,
+            "home": 2994,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138541": {
+            "season": 94441,
+            "match": 34138541,
+            "round": 32,
+            "home": 2949,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138543": {
+            "season": 94441,
+            "match": 34138543,
+            "round": 32,
+            "home": 2974,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138545": {
+            "season": 94441,
+            "match": 34138545,
+            "round": 32,
+            "home": 2947,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138547": {
+            "season": 94441,
+            "match": 34138547,
+            "round": 32,
+            "home": 2954,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138549": {
+            "season": 94441,
+            "match": 34138549,
+            "round": 32,
+            "home": 2972,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "07/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1680890400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138551": {
+            "season": 94441,
+            "match": 34138551,
+            "round": 32,
+            "home": 2961,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "09/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681035300
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138553": {
+            "season": 94441,
+            "match": 34138553,
+            "round": 32,
+            "home": 53067,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "10/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681149600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138555": {
+            "season": 94441,
+            "match": 34138555,
+            "round": 33,
+            "home": 2963,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138557": {
+            "season": 94441,
+            "match": 34138557,
+            "round": 33,
+            "home": 2977,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138559": {
+            "season": 94441,
+            "match": 34138559,
+            "round": 33,
+            "home": 2976,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138561": {
+            "season": 94441,
+            "match": 34138561,
+            "round": 33,
+            "home": 2947,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138563": {
+            "season": 94441,
+            "match": 34138563,
+            "round": 33,
+            "home": 2971,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138565": {
+            "season": 94441,
+            "match": 34138565,
+            "round": 33,
+            "home": 2978,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138567": {
+            "season": 94441,
+            "match": 34138567,
+            "round": 33,
+            "home": 2980,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "14/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681495200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138569": {
+            "season": 94441,
+            "match": 34138569,
+            "round": 33,
+            "home": 2966,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "06:15",
+                "date": "16/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681640100
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138571": {
+            "season": 94441,
+            "match": 34138571,
+            "round": 33,
+            "home": 46160,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "17/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681754400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138573": {
+            "season": 94441,
+            "match": 34138573,
+            "round": 33,
+            "home": 46161,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "17/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1681754400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138575": {
+            "season": 94441,
+            "match": 34138575,
+            "round": 34,
+            "home": 2990,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138577": {
+            "season": 94441,
+            "match": 34138577,
+            "round": 34,
+            "home": 2973,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138579": {
+            "season": 94441,
+            "match": 34138579,
+            "round": 34,
+            "home": 2994,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138581": {
+            "season": 94441,
+            "match": 34138581,
+            "round": 34,
+            "home": 2949,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138583": {
+            "season": 94441,
+            "match": 34138583,
+            "round": 34,
+            "home": 2974,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138585": {
+            "season": 94441,
+            "match": 34138585,
+            "round": 34,
+            "home": 2954,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138587": {
+            "season": 94441,
+            "match": 34138587,
+            "round": 34,
+            "home": 2972,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138589": {
+            "season": 94441,
+            "match": 34138589,
+            "round": 34,
+            "home": 2961,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "21/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682100000
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138591": {
+            "season": 94441,
+            "match": 34138591,
+            "round": 34,
+            "home": 46168,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "24/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682359200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138593": {
+            "season": 94441,
+            "match": 34138593,
+            "round": 34,
+            "home": 53067,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "24/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682359200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138595": {
+            "season": 94441,
+            "match": 34138595,
+            "round": 35,
+            "home": 2966,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138597": {
+            "season": 94441,
+            "match": 34138597,
+            "round": 35,
+            "home": 2963,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138599": {
+            "season": 94441,
+            "match": 34138599,
+            "round": 35,
+            "home": 2994,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138601": {
+            "season": 94441,
+            "match": 34138601,
+            "round": 35,
+            "home": 2977,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138603": {
+            "season": 94441,
+            "match": 34138603,
+            "round": 35,
+            "home": 2976,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138605": {
+            "season": 94441,
+            "match": 34138605,
+            "round": 35,
+            "home": 2971,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138607": {
+            "season": 94441,
+            "match": 34138607,
+            "round": 35,
+            "home": 2978,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138609": {
+            "season": 94441,
+            "match": 34138609,
+            "round": 35,
+            "home": 2980,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "28/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682704800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138611": {
+            "season": 94441,
+            "match": 34138611,
+            "round": 35,
+            "home": 2961,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "12:45",
+                "date": "29/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682786700
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138613": {
+            "season": 94441,
+            "match": 34138613,
+            "round": 35,
+            "home": 2947,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "15:00",
+                "date": "29/04/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1682794800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138615": {
+            "season": 94441,
+            "match": 34138615,
+            "round": 36,
+            "home": 2990,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138617": {
+            "season": 94441,
+            "match": 34138617,
+            "round": 36,
+            "home": 2973,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138619": {
+            "season": 94441,
+            "match": 34138619,
+            "round": 36,
+            "home": 2949,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138621": {
+            "season": 94441,
+            "match": 34138621,
+            "round": 36,
+            "home": 2974,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138623": {
+            "season": 94441,
+            "match": 34138623,
+            "round": 36,
+            "home": 2954,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138625": {
+            "season": 94441,
+            "match": 34138625,
+            "round": 36,
+            "home": 2972,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "05/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683309600
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138627": {
+            "season": 94441,
+            "match": 34138627,
+            "round": 36,
+            "home": 46160,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683568800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138629": {
+            "season": 94441,
+            "match": 34138629,
+            "round": 36,
+            "home": 46161,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683568800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138631": {
+            "season": 94441,
+            "match": 34138631,
+            "round": 36,
+            "home": 46168,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683568800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138633": {
+            "season": 94441,
+            "match": 34138633,
+            "round": 36,
+            "home": 53067,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "08/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683568800
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138635": {
+            "season": 94441,
+            "match": 34138635,
+            "round": 37,
+            "home": 2966,
+            "away": 2973,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138637": {
+            "season": 94441,
+            "match": 34138637,
+            "round": 37,
+            "home": 46160,
+            "away": 46161,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138639": {
+            "season": 94441,
+            "match": 34138639,
+            "round": 37,
+            "home": 2963,
+            "away": 2990,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138641": {
+            "season": 94441,
+            "match": 34138641,
+            "round": 37,
+            "home": 2994,
+            "away": 2974,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138643": {
+            "season": 94441,
+            "match": 34138643,
+            "round": 37,
+            "home": 2976,
+            "away": 2972,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138645": {
+            "season": 94441,
+            "match": 34138645,
+            "round": 37,
+            "home": 2947,
+            "away": 2977,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138647": {
+            "season": 94441,
+            "match": 34138647,
+            "round": 37,
+            "home": 2978,
+            "away": 46168,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138649": {
+            "season": 94441,
+            "match": 34138649,
+            "round": 37,
+            "home": 2971,
+            "away": 2954,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138651": {
+            "season": 94441,
+            "match": 34138651,
+            "round": 37,
+            "home": 2980,
+            "away": 2949,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138653": {
+            "season": 94441,
+            "match": 34138653,
+            "round": 37,
+            "home": 2961,
+            "away": 53067,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "12/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1683914400
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138655": {
+            "season": 94441,
+            "match": 34138655,
+            "round": 38,
+            "home": 2990,
+            "away": 2976,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138657": {
+            "season": 94441,
+            "match": 34138657,
+            "round": 38,
+            "home": 46161,
+            "away": 2966,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138659": {
+            "season": 94441,
+            "match": 34138659,
+            "round": 38,
+            "home": 2973,
+            "away": 2978,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138661": {
+            "season": 94441,
+            "match": 34138661,
+            "round": 38,
+            "home": 2949,
+            "away": 2963,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138663": {
+            "season": 94441,
+            "match": 34138663,
+            "round": 38,
+            "home": 2974,
+            "away": 2971,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138665": {
+            "season": 94441,
+            "match": 34138665,
+            "round": 38,
+            "home": 2977,
+            "away": 46160,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138667": {
+            "season": 94441,
+            "match": 34138667,
+            "round": 38,
+            "home": 46168,
+            "away": 2994,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138669": {
+            "season": 94441,
+            "match": 34138669,
+            "round": 38,
+            "home": 2954,
+            "away": 2961,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138671": {
+            "season": 94441,
+            "match": 34138671,
+            "round": 38,
+            "home": 2972,
+            "away": 2947,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        },
+        "34138673": {
+            "season": 94441,
+            "match": 34138673,
+            "round": 38,
+            "home": 53067,
+            "away": 2980,
+            "time": {
+                "_doc": "time",
+                "time": "14:00",
+                "date": "19/05/23",
+                "tz": "-04",
+                "tzoffset": -14400,
+                "uts": 1684519200
+            },
+            "finished": false,
+            "data": {}
+        }
+    },
+    "matches_scanned": []
+}
