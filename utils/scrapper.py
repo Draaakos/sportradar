@@ -185,8 +185,8 @@ def _process_match_squads(match_id):
     players = {}
 
     return {
-        # 'resumen': resumen,
-        # 'squads': players,
+        'resumen': resumen,
+        'squads': players,
         'home': home,
         'away': away
     }
