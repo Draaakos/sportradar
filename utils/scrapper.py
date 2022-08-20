@@ -98,12 +98,8 @@ def _scrapped_matches(country, league_name, season, base_file_data, ready_for_sc
             squads = _process_match_squads(match_id)
 
             data = {
-                # 'squads': squads['squads'],
                 'home': squads['home'],
                 'away': squads['away'],
-                # 'resumen': squads['resumen'],
-                'details': _process_match_details(match_id),
-                'extras': _process_stats_match(match_id),
                 'events': _process_stats_match_timeline(match_id)
             }
 
@@ -128,162 +124,13 @@ def _process_match_squads(match_id):
     print(f'fetching match... {url}')
 
     data = response_data['doc'][0]['data']
-    home_data = data['match']['teams']['home']
-    away_data = data['match']['teams']['away']
-
-    home = {
-        'id': home_data['uid'],
-        'name': home_data['name']
-    }
-
-    away = {
-        'id': away_data['uid'],
-        'name': away_data['name']
-    }
-
-    home_manager = {}
-    try:
-        home_manager = {
-            'name': data['home']['manager']['name'],
-            'nationality': data['home']['manager']['nationality']['name']
-        }
-    except:
-        home_manager = {
-            'name': '',
-            'nationality': ''
-        }
-
-    away_manager = {}
-    try:
-        away_manager = {
-            'name': data['away']['manager']['name'],
-            'nationality': data['away']['manager']['nationality']['name']
-        }
-    except:
-        away_manager = {
-            'name': '',
-            'nationality': ''
-        }
-
-    resumen = {
-        'home': {
-            'formation': data['home']['startinglineup']['formation'],
-            'goals_first_time': data['match']['periods']['p1']['home'],
-            'goals_second_time': int(data['match']['result']['home']) - data['match']['periods']['p1']['home'],
-            'goals_full_time': data['match']['result']['home'],
-            'manager': home_manager
-        },
-        'away': {
-            'formation': data['away']['startinglineup']['formation'],
-            'goals_first_time': data['match']['periods']['p1']['away'],
-            'goals_second_time': int(data['match']['result']['away']) - data['match']['periods']['p1']['away'],
-            'goals_full_time': data['match']['result']['away'],
-            'manager': away_manager
-        }
-    }
-
-    players = {}
+    home = data['match']['teams']['home']
+    away = data['match']['teams']['away']
 
     return {
-        'resumen': resumen,
-        'squads': players,
         'home': home,
         'away': away
     }
-
-
-
-
-
-
-
-
-
-
-
-
-def _process_match_details(match_id):
-    url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/match_details/{match_id}'
-    response_data = requests.get(url).json()
-    data = response_data['doc'][0]['data']
-    print(f'processing {data["teams"]["home"]} vs {data["teams"]["away"]}')
-
-    key_values = {
-        'Posesión de la pelota': 'possesion',
-        'Ocasiones de Gol': 'goal_chances',
-        'Tiros a portería': 'shots_on_goal',
-        'Tiros fuera': 'shots_out',
-        'Saques de esquina': 'corners',
-        'Faltas': 'faults',
-        'Fueras de juego': 'offsides',
-        'Saques de puerta': 'goal_kicks',
-        'Saques de banda': 'throwins',
-        'Tarjetas Amarillas': 'yellow_cards',
-        'Tarjetas Rojas': 'red_cards',
-        'Paradas': 'goalkeeper_stops'
-    }
-
-    information = {
-        'possesion': {
-            'home': 0,
-            'away': 0
-        },
-        'goal_chances': {
-            'home': 0,
-            'away': 0
-        },
-        'shots_on_goal': {
-            'home': 0,
-            'away': 0
-        },
-        'shots_out': {
-            'home': 0,
-            'away': 0
-        },
-        'corners': {
-            'home': 0,
-            'away': 0
-        },
-        'faults': {
-            'home': 0,
-            'away': 0
-        },
-        'offsides': {
-            'home': 0,
-            'away': 0
-        },
-        'goal_kicks': {
-            'home': 0,
-            'away': 0
-        },
-        'throwins': {
-            'home': 0,
-            'away': 0
-        },
-        'yellow_cards': {
-            'home': 0,
-            'away': 0
-        },
-        'red_cards': {
-            'home': 0,
-            'away': 0
-        },
-        'goalkeeper_stops': {
-            'home': 0,
-            'away': 0
-        },
-    }
-
-    for item in data['values'].values():
-        if item['name'] in key_values.keys():
-            information[key_values[item['name']]] = {
-                'home': item['value']['home'],
-                'away': item['value']['away']
-            }
-
-    return information
-
-
 
 
 
@@ -347,74 +194,3 @@ def _process_stats_match_timeline(match_id):
                 })
 
     return events
-
-
-
-
-
-
-
-
-def _process_stats_match(match_id):
-    url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_match_get/{match_id}'
-    response_data = requests.get(url).json()
-    data = response_data['doc'][0]['data']
-
-    referee = {}
-    try:
-        referee = {
-            'name': data['referee'][0]['name'],
-            'nationality': data['referee'][0]['nationality']['name']
-        }
-    except:
-        referee = {
-            'name': 'Default',
-            'nationality': 'Default'
-        }
-
-
-    weather = {}
-    try:
-        weather = {
-            'temperature': data['matchweather']['ctemp'],
-            'weather': data['matchweather']['weather']['desc'],
-            'humidity': data['matchweather']['humidity'],
-            'pressure': data['matchweather']['pressure'],
-            'mmprecip': data['matchweather']['mmprecip'],
-            'kmphwind': data['matchweather']['kmphwind'],
-            'winddirection': data['matchweather']['winddir']
-        }
-    except:
-        weather = {
-            'temperature': 'Default',
-            'weather': 'Default',
-            'humidity': 'Default',
-            'pressure': 'Default',
-            'mmprecip': 'Default',
-            'kmphwind': 'Default',
-            'winddirection': 'Default'
-        }
-        
-
-    stadium = {}
-    try:
-        stadium = {
-            'name': data['stadium']['name'],  
-            'city': data['stadium']['city'],
-            'country': data['stadium']['country'],
-            'capacity': data['stadium']['capacity']
-        }
-    except:
-        stadium = {
-            'name': 'Default',  
-            'city': 'Default',  
-            'country': 'Default',   
-            'capacity': 'Default' 
-        }
-
-    return {
-        'referee': referee,
-        'weather': weather,
-        'stadium': stadium,
-        'time': data['time']
-    }

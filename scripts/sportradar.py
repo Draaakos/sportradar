@@ -1,4 +1,5 @@
 import json
+import time
 from classes.sportradar import Sportradar
 
 if __name__ == '__main__':
@@ -13,3 +14,4 @@ if __name__ == '__main__':
             
             sportradar = Sportradar(season_country, season_name, season_id)
             sportradar.start()
+            time.sleep(5)
