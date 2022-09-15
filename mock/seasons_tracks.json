@@ -41,6 +41,24 @@
             "name": "Brasileiro, Serie B 2022",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90983",
             "country": "Brazil"
+        },
+        {
+            "id": 90071,
+            "name": "Eliteserien 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90071",
+            "country": "Noruega"
+        },
+        {
+            "id": 90109,
+            "name": "Superettan 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90109",
+            "country": "Suecia"
+        },
+        {
+            "id": 90989,
+            "name": "Veikkausliiga 2022",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90989",
+            "country": "Finlandia"
         }
     ]
 }
