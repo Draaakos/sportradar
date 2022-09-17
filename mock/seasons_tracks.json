@@ -1,40 +1,10 @@
 {
     "season_active": [
         {
-            "id": 93847,
-            "name": "Primera División 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847",
-            "country": "Argentina"
-        },
-        {
-            "id": 90599,
-            "name": "Primera Nacional 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90599",
-            "country": "Argentina"
-        },
-        {
-            "id": 90757,
-            "name": "Primera División 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90757",
-            "country": "Chile"
-        },
-        {
-            "id": 90997,
-            "name": "Primera B 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90997",
-            "country": "Chile"
-        },
-        {
-            "id": 94441,
-            "name": "Eerste Divisie 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94441",
-            "country": "Holanda"
-        },
-        {
-            "id": 90975,
-            "name": "Brasileiro, Serie A 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90975",
-            "country": "Brazil"
+            "id": 93753,
+            "name": "Bundesliga 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93753",
+            "country": "Alemania"
         },
         {
             "id": 90983,
@@ -55,10 +25,16 @@
             "country": "Suecia"
         },
         {
-            "id": 90989,
-            "name": "Veikkausliiga 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90989",
-            "country": "Finlandia"
+            "id": 93747,
+            "name": "League Two 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93747",
+            "country": "Inglaterra"
+        },
+        {
+            "id": 94713,
+            "name": "Liga Regional Bavaria 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94713",
+            "country": "Alemania"
         }
     ]
 }

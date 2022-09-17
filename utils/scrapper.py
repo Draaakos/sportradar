@@ -3,6 +3,7 @@ import json
 import time
 import requests
 
+
 def season_data(country, league_name, season):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_season_fixtures2/{season}'
     print('fetching data...', url)
@@ -46,7 +47,13 @@ def season_data(country, league_name, season):
             'away': int(match['teams']['away']['uid']),
             'time': match['time'],
             'finished': True if match['result']['home'] is not None and match['result']['away'] is not None else False,
-            'data': {}
+            'data': {},
+            'previous': {
+                "match": -1,
+                "goal_1t": -1,
+                "goal_2t": -1,
+                "goal_ft": -1
+            }
         }
 
     # esta seria la etapa 1 del archivo donde se crea 
@@ -103,9 +110,12 @@ def _scrapped_matches(country, league_name, season, base_file_data, ready_for_sc
                 'events': _process_stats_match_timeline(match_id)
             }
 
+            previous = _fetch_previous_game(int(data['home']['uid']), int(data['away']['uid']), base_file_data['matches'][match_id]['time'])
+
             base_file_data['matches'][match_id]['data'] = data
             base_file_data['matches'][match_id]['finished'] = True
             base_file_data['matches_scanned'].append(int(match_id))
+            base_file_data['matches'][match_id]['previous'] = previous
 
             json_to_file = json.dumps(base_file_data, indent=4)
             with open(f'data/{country}/{league_name}/{season}.json', 'w') as new_json_file:
@@ -194,3 +204,41 @@ def _process_stats_match_timeline(match_id):
                 })
 
     return events
+
+
+
+
+def _fetch_previous_game(team_a, team_b, match_time):
+    teams = sorted([team_a, team_b])
+    url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_h2h_versus/{teams[0]}/{teams[1]}'
+    response = requests.get(url).json()
+    lastmatchesbetweenteams = response['doc'][0]['data']['lastmatchesbetweenteams']
+
+    last_match = {
+        'match': None,
+        'goal_1t': 0,
+        'goal_2t': 0,
+        'goal_ft': 0
+    }
+    
+    try:
+        first_coincidence = False
+        current_match_time = int(match_time['uts'])
+        for match in lastmatchesbetweenteams:
+            if first_coincidence == False and int(match['time']['uts']) < current_match_time:
+                goal_1t = int(match['periods']['p1']['home']) + int(match['periods']['p1']['away'])
+                goal_ft = int(match['periods']['ft']['home']) + int(match['periods']['ft']['away'])
+
+                last_match = {
+                    'match': int(match['_id']),
+                    'goal_1t': goal_1t,
+                    'goal_2t': goal_ft - goal_1t,
+                    'goal_ft': goal_ft
+                }
+
+                first_coincidence = True
+    except:
+        print('execption previous game')
+   
+
+    return last_match

@@ -1,6 +1,12 @@
 {
     "season_active": [
         {
+            "id": 94713,
+            "name": "Liga Regional Bavaria 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94713",
+            "country": "Alemania"
+        },
+        {
             "id": 93847,
             "name": "Primera División 2022",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847",
@@ -55,10 +61,10 @@
             "country": "Suecia"
         },
         {
-            "id": 89613,
-            "name": "Major League Soccer 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/89613",
-            "country": "EEUU"
+            "id": 93747,
+            "name": "League Two 22/23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93747",
+            "country": "Inglaterra"
         }
     ]
 }

@@ -1,0 +1,4 @@
+De aca se saca la estadistica previa pero del equipo en general
+puede servir a futuro
+
+https://stats.fn.sportradar.com/common/es/Europe:Berlin/gismo/stats_season_teamscoringconceding/{season_id}/{team_id}/{round}
