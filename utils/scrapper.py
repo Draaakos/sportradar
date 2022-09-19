@@ -209,11 +209,6 @@ def _process_stats_match_timeline(match_id):
 
 
 def _fetch_previous_game(team_a, team_b, match_time):
-    teams = sorted([team_a, team_b])
-    url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_h2h_versus/{teams[0]}/{teams[1]}'
-    response = requests.get(url).json()
-    lastmatchesbetweenteams = response['doc'][0]['data']['lastmatchesbetweenteams']
-
     last_match = {
         'match': None,
         'goal_1t': 0,
@@ -222,6 +217,11 @@ def _fetch_previous_game(team_a, team_b, match_time):
     }
     
     try:
+        teams = sorted([team_a, team_b])
+        url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_h2h_versus/{teams[0]}/{teams[1]}'
+        response = requests.get(url).json()
+        lastmatchesbetweenteams = response['doc'][0]['data']['lastmatchesbetweenteams']
+
         first_coincidence = False
         current_match_time = int(match_time['uts'])
         for match in lastmatchesbetweenteams:

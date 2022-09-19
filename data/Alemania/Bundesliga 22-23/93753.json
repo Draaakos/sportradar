@@ -43303,13 +43303,679 @@
                 "tzoffset": -10800,
                 "uts": 1663507800
             },
-            "finished": false,
-            "data": {},
+            "finished": true,
+            "data": {
+                "home": {
+                    "_doc": "team",
+                    "_id": 7114236,
+                    "_sid": 1,
+                    "uid": 2547,
+                    "virtual": false,
+                    "name": "Union Berlin",
+                    "mediumname": "Union Berlin",
+                    "abbr": "UNI",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "away": {
+                    "_doc": "team",
+                    "_id": 5174,
+                    "_sid": 1,
+                    "uid": 2524,
+                    "virtual": false,
+                    "name": "Wolfsburgo",
+                    "mediumname": "VfL Wolfsburgo",
+                    "abbr": "WOL",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "events": {
+                    "throwin": [
+                        {
+                            "name": "Saque de banda",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 5,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 6,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 6,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 7,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 7,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 11,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 12,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 17,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 17,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 21,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 30,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 37,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 38,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 39,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 40,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 43,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 46,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 48,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 50,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 52,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 53,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 54,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 57,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 57,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 57,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 57,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 58,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 61,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 62,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 64,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 64,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 65,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 66,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 67,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 67,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 69,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 72,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 73,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 76,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 77,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 83,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 83,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 86,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "home"
+                        }
+                    ],
+                    "freekick": [
+                        {
+                            "name": "Falta",
+                            "time": 3,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 9,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 14,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 15,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 16,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 17,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 22,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 25,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 27,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 35,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 38,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 40,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 42,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 42,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 44,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 45,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 48,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 56,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 59,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 61,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 61,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 81,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 84,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 89,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "corner": [
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 13,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 29,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 33,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 71,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 88,
+                            "team": "home"
+                        }
+                    ],
+                    "shotofftarget": [
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 4,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 18,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 19,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 28,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 32,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 47,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 49,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 51,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 72,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 74,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 83,
+                            "team": "home"
+                        }
+                    ],
+                    "goal_kick": [
+                        {
+                            "name": "Saque de puerta",
+                            "time": 2,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 4,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 10,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 11,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 18,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 19,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 23,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 25,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 28,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 32,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 45,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 47,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 49,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 51,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 60,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 69,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 74,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 75,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 83,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 84,
+                            "team": "home"
+                        }
+                    ],
+                    "shotontarget": [
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 1,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 33,
+                            "team": "home"
+                        }
+                    ],
+                    "goalkeeper_saved": [
+                        {
+                            "name": "Parada del Portero",
+                            "time": 1,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 33,
+                            "team": "away"
+                        }
+                    ],
+                    "goal": [
+                        {
+                            "name": "Gol",
+                            "time": 54,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Gol",
+                            "time": 77,
+                            "team": "home"
+                        }
+                    ],
+                    "offside": [
+                        {
+                            "name": "Fuera de juego",
+                            "time": 22,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 70,
+                            "team": "home"
+                        }
+                    ],
+                    "shotblocked": [
+                        {
+                            "name": "Tiro parado",
+                            "time": 38,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 51,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 86,
+                            "team": "away"
+                        }
+                    ],
+                    "yellow_card": [],
+                    "red_card": []
+                }
+            },
             "previous": {
-                "match": -1,
-                "goal_1t": -1,
-                "goal_2t": -1,
-                "goal_ft": -1
+                "match": 27883524,
+                "goal_1t": 1,
+                "goal_2t": 0,
+                "goal_ft": 1
             }
         },
         "34169069": {
@@ -43326,13 +43992,730 @@
                 "tzoffset": -10800,
                 "uts": 1663515000
             },
-            "finished": false,
-            "data": {},
+            "finished": true,
+            "data": {
+                "home": {
+                    "_doc": "team",
+                    "_id": 4915,
+                    "_sid": 1,
+                    "uid": 2542,
+                    "virtual": false,
+                    "name": "Bochum",
+                    "mediumname": "VfL Bochum",
+                    "abbr": "BOC",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "away": {
+                    "_doc": "team",
+                    "_id": 4899,
+                    "_sid": 1,
+                    "uid": 2671,
+                    "virtual": false,
+                    "name": "Colonia",
+                    "mediumname": "1. FC Colonia",
+                    "abbr": "COL",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "events": {
+                    "throwin": [
+                        {
+                            "name": "Saque de banda",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 3,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 4,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 4,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 6,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 7,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 7,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 10,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 11,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 12,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 13,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 13,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 15,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 16,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 21,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 24,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 27,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 30,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 30,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 31,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 33,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 34,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 35,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 36,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 38,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 42,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 43,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 44,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 47,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 51,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 54,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 54,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 56,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 57,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 60,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 61,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 67,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 67,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 69,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 69,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 71,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 76,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 79,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 82,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 86,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 88,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "freekick": [
+                        {
+                            "name": "Falta",
+                            "time": 1,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 1,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 14,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 21,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 23,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 31,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 34,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 39,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 39,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 48,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 55,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 61,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 65,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 68,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 68,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 70,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 70,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 72,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 72,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 73,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 74,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 87,
+                            "team": "home"
+                        }
+                    ],
+                    "corner": [
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 9,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 21,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 29,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 29,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 41,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 41,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 50,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 53,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 66,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 77,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 85,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "shotofftarget": [
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 6,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 20,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 23,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 29,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 33,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 39,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 53,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 59,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 78,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 81,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "goal_kick": [
+                        {
+                            "name": "Saque de puerta",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 6,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 17,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 18,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 23,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 29,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 33,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 39,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 41,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 51,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 53,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 59,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 78,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 79,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 81,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 84,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 90,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 90,
+                            "team": "home"
+                        }
+                    ],
+                    "shotontarget": [
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 76,
+                            "team": "away"
+                        }
+                    ],
+                    "goalkeeper_saved": [
+                        {
+                            "name": "Parada del Portero",
+                            "time": 76,
+                            "team": "home"
+                        }
+                    ],
+                    "goal": [
+                        {
+                            "name": "Gol",
+                            "time": 9,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Gol",
+                            "time": 88,
+                            "team": "away"
+                        }
+                    ],
+                    "offside": [
+                        {
+                            "name": "Fuera de juego",
+                            "time": 15,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 31,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 50,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 64,
+                            "team": "away"
+                        }
+                    ],
+                    "shotblocked": [
+                        {
+                            "name": "Tiro parado",
+                            "time": 8,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 12,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 20,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 45,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 49,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 66,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 66,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 77,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "yellow_card": [
+                        {
+                            "name": "Tarjeta amarilla",
+                            "time": 68,
+                            "team": "away"
+                        }
+                    ],
+                    "red_card": []
+                }
+            },
             "previous": {
-                "match": -1,
-                "goal_1t": -1,
-                "goal_2t": -1,
-                "goal_ft": -1
+                "match": 27883444,
+                "goal_1t": 3,
+                "goal_2t": 1,
+                "goal_ft": 4
             }
         },
         "34169065": {
@@ -43349,13 +44732,704 @@
                 "tzoffset": -10800,
                 "uts": 1663522200
             },
-            "finished": false,
-            "data": {},
+            "finished": true,
+            "data": {
+                "home": {
+                    "_doc": "team",
+                    "_id": 1270229,
+                    "_sid": 1,
+                    "uid": 2569,
+                    "virtual": false,
+                    "name": "Hoffenheim",
+                    "mediumname": "TSG Hoffenheim",
+                    "abbr": "HOF",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "away": {
+                    "_doc": "team",
+                    "_id": 4898,
+                    "_sid": 1,
+                    "uid": 2538,
+                    "virtual": false,
+                    "name": "Friburgo",
+                    "mediumname": "SC Friburgo",
+                    "abbr": "SCF",
+                    "nickname": null,
+                    "iscountry": false,
+                    "haslogo": true
+                },
+                "events": {
+                    "throwin": [
+                        {
+                            "name": "Saque de banda",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 4,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 16,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 20,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 21,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 29,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 29,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 30,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 37,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 40,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 42,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 44,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 49,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 54,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 59,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 60,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 61,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 63,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 65,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 69,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 74,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 76,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 82,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 82,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 85,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 86,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 86,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 86,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 88,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 89,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de banda",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "freekick": [
+                        {
+                            "name": "Falta",
+                            "time": 3,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 7,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 13,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 19,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 26,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 32,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 34,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 40,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 43,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 45,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 51,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 52,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 55,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 55,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 62,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 65,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 67,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 68,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 72,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 74,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 75,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 78,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 84,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Falta",
+                            "time": 90,
+                            "team": "home"
+                        }
+                    ],
+                    "corner": [
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 12,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 35,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 49,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 53,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 63,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 70,
+                            "team": "away"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 81,
+                            "team": "home"
+                        },
+                        {
+                            "name": "C\u00f3rner",
+                            "time": 85,
+                            "team": "home"
+                        }
+                    ],
+                    "shotofftarget": [
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 10,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 12,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 20,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 25,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 30,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 46,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 53,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 56,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 60,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 66,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro fuera de porter\u00eda",
+                            "time": 70,
+                            "team": "away"
+                        }
+                    ],
+                    "goal_kick": [
+                        {
+                            "name": "Saque de puerta",
+                            "time": 1,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 2,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 6,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 10,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 12,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 24,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 25,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 30,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 33,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 36,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 39,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 46,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 53,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 56,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 60,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 66,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 70,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 76,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 81,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 83,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Saque de puerta",
+                            "time": 89,
+                            "team": "away"
+                        }
+                    ],
+                    "shotontarget": [
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 11,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 16,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 20,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 38,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 41,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 63,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 88,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro a porter\u00eda",
+                            "time": 90,
+                            "team": "home"
+                        }
+                    ],
+                    "goalkeeper_saved": [
+                        {
+                            "name": "Parada del Portero",
+                            "time": 11,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 16,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 20,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 38,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 41,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 63,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 88,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Parada del Portero",
+                            "time": 90,
+                            "team": "away"
+                        }
+                    ],
+                    "goal": [],
+                    "offside": [
+                        {
+                            "name": "Fuera de juego",
+                            "time": 4,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 17,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 22,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 26,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 43,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Fuera de juego",
+                            "time": 48,
+                            "team": "home"
+                        }
+                    ],
+                    "shotblocked": [
+                        {
+                            "name": "Tiro parado",
+                            "time": 8,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 45,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 58,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 68,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 69,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tiro parado",
+                            "time": 71,
+                            "team": "home"
+                        }
+                    ],
+                    "yellow_card": [
+                        {
+                            "name": "Tarjeta amarilla",
+                            "time": 56,
+                            "team": "away"
+                        },
+                        {
+                            "name": "Tarjeta amarilla",
+                            "time": 80,
+                            "team": "home"
+                        },
+                        {
+                            "name": "Tarjeta amarilla",
+                            "time": 80,
+                            "team": "away"
+                        }
+                    ],
+                    "red_card": []
+                }
+            },
             "previous": {
-                "match": -1,
-                "goal_1t": -1,
-                "goal_2t": -1,
-                "goal_ft": -1
+                "match": 27883656,
+                "goal_1t": 2,
+                "goal_2t": 5,
+                "goal_ft": 7
             }
         },
         "34169075": {
@@ -49008,6 +51082,9 @@
         34169059,
         34169071,
         34169073,
-        34169067
+        34169067,
+        34169061,
+        34169069,
+        34169065
     ]
 }
