@@ -23,7 +23,8 @@ def season_data(country, league_name, season):
                 'id': match['teams']['home']['uid'],
                 'name': match['teams']['home']['name'],
                 'medium_name': match['teams']['home']['mediumname'],
-                'abbr': match['teams']['home']['abbr']
+                'abbr': match['teams']['home']['abbr'],
+                'level': -3
             })
             teams_scanned.append(match['teams']['home']['uid'])
 
@@ -32,7 +33,8 @@ def season_data(country, league_name, season):
                 'id': match['teams']['away']['uid'],
                 'name': match['teams']['away']['name'],
                 'medium_name': match['teams']['away']['mediumname'],
-                'abbr': match['teams']['away']['abbr']
+                'abbr': match['teams']['away']['abbr'],
+                'level': -3
             })
             teams_scanned.append(match['teams']['away']['uid'])
             
@@ -182,7 +184,12 @@ def _process_stats_match_timeline(match_id):
         'red_card': []
     }
 
+    period = 1
     for event in events_data:
+        if event['type'] == 'periodstart' and event['name'] == '2ª parte':
+            period = 2
+
+
         if event['type'] in available_events:
             if event['type'] == 'card':
                 event_name = ''
@@ -194,13 +201,15 @@ def _process_stats_match_timeline(match_id):
                 events[event_name].append({
                     'name': event['name'],
                     'time': event['time'],
-                    'team': event['team']
+                    'team': event['team'],
+                    'period': period
                 })
             else:
                 events[event['type']].append({
                     'name': event['name'],
                     'time': event['time'],
-                    'team': event['team']
+                    'team': event['team'],
+                    'period': period
                 })
 
     return events
