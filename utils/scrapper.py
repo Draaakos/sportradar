@@ -181,7 +181,9 @@ def _process_stats_match_timeline(match_id):
         'offside': [],
         'shotblocked': [],
         'yellow_card': [],
-        'red_card': []
+        'red_card': [],
+        'owngoal': [],
+        'penalty_goal': []
     }
 
     period = 1
@@ -204,6 +206,24 @@ def _process_stats_match_timeline(match_id):
                     'team': event['team'],
                     'period': period
                 })
+
+
+            elif event['type'] == 'goal':
+                event_name = 'goal'
+                if event['owngoal'] == True:
+                    event_name = 'owngoal'
+
+                if event['penalty'] == True:
+                    event_name = 'penalty_goal'
+                    
+                events[event_name].append({
+                    'name': event['name'],
+                    'time': event['time'],
+                    'team': event['team'],
+                    'period': period
+                })  
+
+
             else:
                 events[event['type']].append({
                     'name': event['name'],

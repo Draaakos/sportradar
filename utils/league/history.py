@@ -1,3 +1,7 @@
+# NO SE USA
+
+
+
 import os
 import json
 import time
@@ -124,7 +128,9 @@ def _process_stats_match_timeline(match_id):
         'offside': [],
         'shotblocked': [],
         'yellow_card': [],
-        'red_card': []
+        'red_card': [],
+        'owngoal': [],
+        'penalty_goal': []
     }
 
     for event in events_data:
@@ -141,6 +147,14 @@ def _process_stats_match_timeline(match_id):
                     'time': event['time'],
                     'team': event['team']
                 })
+            elif event['type'] == 'goal':
+                event_name = 'goal'
+                if event['owngoal'] == True:
+                    event_name = 'owngoal'
+
+                if event['penalty'] == True:
+                    event_name = 'penalty_goal'
+                    
             else:
                 events[event['type']].append({
                     'name': event['name'],
@@ -297,7 +311,9 @@ def _process_match_details(match_id):
         'Saques de banda': 'throwins',
         'Tarjetas Amarillas': 'yellow_cards',
         'Tarjetas Rojas': 'red_cards',
-        'Paradas': 'goalkeeper_stops'    
+        'Paradas': 'goalkeeper_stops',
+        'Autogol': 'owngoal',
+        'Gol de penal': 'penalty_goal'
     }
 
     information = {
@@ -349,6 +365,14 @@ def _process_match_details(match_id):
             'home': 0,
             'away': 0
         },
+        'owngoal': {
+            'home': 0,
+            'away': 0
+        },
+        'penalty_goal': {
+            'home': 0,
+            'away': 0
+        }
     }
 
     for item in data['values'].values():

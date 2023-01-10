@@ -1,10 +1,10 @@
 {
     "season_active": [
         {
-            "id": 94217,
-            "name": "Bundesliga 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94217",
-            "country": "Austria"
+            "id": 94033,
+            "name": "Liga 1 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94033",
+            "country": "Francia"
         },
         {
             "id": 93753,
@@ -13,76 +13,22 @@
             "country": "Alemania"
         },
         {
-            "id": 90071,
-            "name": "Eliteserien 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/90071",
-            "country": "Noruega"
-        },
-        {
-            "id": 93847,
-            "name": "Argentina, Primera División 2022",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93847",
-            "country": "Argentina"
-        },
-        {
-            "id": 93807,
-            "name": "Primera División 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93807",
-            "country": "Dinamarca"
-        },
-        {
             "id": 93741,
             "name": "Premier League 22-23",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93741",
             "country": "Inglaterra"
         },
         {
-            "id": 94033,
-            "name": "Liga 1 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94033",
-            "country": "Francia"
-        },
-        {
-            "id": 94707,
-            "name": "Primera División 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94707",
-            "country": "Belgica"
-        },
-        {
-            "id": 93979,
-            "name": "Premiership 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93979",
-            "country": "Escocia"
-        },
-        {
-            "id": 94179,
-            "name": "Primera División 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94179",
-            "country": "Portugal"
+            "id": 94203,
+            "name": "Serie A 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94203",
+            "country": "Italia"
         },
         {
             "id": 94215,
             "name": "LaLiga 22-23",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94215",
             "country": "España"
-        },
-        {
-            "id": 94031,
-            "name": "Liga Ekstraklasa 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94031",
-            "country": "Polonia"
-        },
-        {
-            "id": 94719,
-            "name": "Superliga 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94719",
-            "country": "Turquia"
-        },
-        {
-            "id": 94203,
-            "name": "Serie A 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94203",
-            "country": "Italia"
         },
         {
             "id": 94199,
@@ -95,6 +41,12 @@
             "name": "Superliga 22-23",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94261",
             "country": "Suiza"
+        },
+        {
+            "id": 94179,
+            "name": "Primera División 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94179",
+            "country": "Portugal"
         }
     ]
 }
