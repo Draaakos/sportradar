@@ -1,6 +1,7 @@
 #!/bin/bash
 
-scrappers=(fotmob, goal, sportradar, betapi)
+# scrappers=(fotmob, goal, sportradar, betapi)
+scrappers=(fotmob, goal, sportradar)
 
 execute_scrapper() {
     echo "loading virtualenvironment for python"
@@ -8,7 +9,7 @@ execute_scrapper() {
     source ~/.envs/sportradar/bin/activate
     directory_name=$(dirname $BASH_SOURCE)
     cd $directory_name
-    python -m scripts.$1
+    python3.11 -m scripts.$1
 }
 
 for i in "${scrappers[@]}"

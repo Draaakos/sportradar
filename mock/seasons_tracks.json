@@ -1,6 +1,12 @@
 {
     "season_active": [
         {
+            "id": 94707,
+            "name": "Primera División 22-23",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94707",
+            "country": "Belgica"
+        },
+        {
             "id": 94033,
             "name": "Liga 1 22-23",
             "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94033",

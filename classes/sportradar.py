@@ -19,22 +19,19 @@ class Sportradar:
         season_data(self.country, self.league_name, self.season)
         self._insert_data_to_mongodb(self.country, self.league_name, self.season)
 
-
-
     def _insert_data_to_mongodb(self, country, league_name, season):
         with open(f'data/{country}/{league_name}/{season}.json') as json_file:
             data = json.load(json_file)
 
 
             for team in data['teams']:
-                if self.connection.team.find({ 'id': int(team['id']) }).count() == 0:
+                if not self.connection.team.find_one({ 'id': int(team['id']) }):
                     save(self.connection, 'team', team)
 
-
             for match_id in data['matches'].keys():
-                if self.connection.matches.find({ 'match': int(match_id) }).count() == 0:
+                if not self.connection.matches.find_one({ 'match': int(match_id) }):
                     save(self.connection, 'matches', data['matches'][match_id])
 
-                if self.connection.matches.find({ 'match': int(match_id), 'finished': False }).count() == 1:
-                    self.connection.matches.remove({ 'match': int(match_id), 'finished': False})
+                if self.connection.matches.find_one({ 'match': int(match_id), 'finished': False }):
+                    self.connection.matches.delete_one({ 'match': int(match_id), 'finished': False})
                     save(self.connection, 'matches', data['matches'][match_id])
