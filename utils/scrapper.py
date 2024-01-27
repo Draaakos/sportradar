@@ -18,6 +18,10 @@ def season_data(country, league_name, season):
 
     response_matches = response['doc'][0]['data']['matches']
     for match in response_matches:
+        if match['round'] is None:
+            continue
+
+        print('============================================\n')
         if not match['teams']['home']['uid'] in teams_scanned:
             teams.append({
                 'id': match['teams']['home']['uid'],
@@ -39,6 +43,7 @@ def season_data(country, league_name, season):
             teams_scanned.append(match['teams']['away']['uid'])
             
 
+        print(match)
         # informacion este o no este el partido terminado.
         # esto es para armar la temporada completa
         matches[match['_id']] = {
@@ -106,6 +111,9 @@ def _scrapped_matches(country, league_name, season, base_file_data, ready_for_sc
             print(f'processing... {match_id}')
             squads = _process_match_squads(match_id)
 
+            if squads is False:
+                continue
+
             data = {
                 'home': squads['home'],
                 'away': squads['away'],
@@ -136,6 +144,10 @@ def _process_match_squads(match_id):
     print(f'fetching match... {url}')
 
     data = response_data['doc'][0]['data']
+
+    if len(data) == 0:
+        return False
+
     home = data['match']['teams']['home']
     away = data['match']['teams']['away']
 

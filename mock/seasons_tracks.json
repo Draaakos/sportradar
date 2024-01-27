@@ -1,58 +1,17 @@
 {
     "season_active": [
         {
-            "id": 94707,
-            "name": "Primera División 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94707",
-            "country": "Belgica"
-        },
-        {
-            "id": 94033,
-            "name": "Liga 1 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94033",
-            "country": "Francia"
-        },
-        {
-            "id": 93753,
-            "name": "Bundesliga 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93753",
-            "country": "Alemania"
-        },
-        {
-            "id": 93741,
-            "name": "Premier League 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/93741",
+            "id": 105353,
+            "name": "Premier League 23-24",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/105353",
             "country": "Inglaterra"
         },
         {
-            "id": 94203,
-            "name": "Serie A 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94203",
-            "country": "Italia"
-        },
-        {
-            "id": 94215,
-            "name": "LaLiga 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94215",
+            "id": 106501,
+            "name": "LaLiga 23-24",
+            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/106501",
             "country": "España"
-        },
-        {
-            "id": 94199,
-            "name": "Superliga 1 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94199",
-            "country": "Grecia"
-        },
-        {
-            "id": 94261,
-            "name": "Superliga 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94261",
-            "country": "Suiza"
-        },
-        {
-            "id": 94179,
-            "name": "Primera División 22-23",
-            "url": "https://s5.sir.sportradar.com/sportradar/es/1/season/94179",
-            "country": "Portugal"
         }
     ]
 }
+

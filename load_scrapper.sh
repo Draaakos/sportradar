@@ -6,7 +6,7 @@ scrappers=(fotmob, goal, sportradar)
 execute_scrapper() {
     echo "loading virtualenvironment for python"
 
-    source ~/.envs/sportradar/bin/activate
+    source ./envs/bin/activate
     directory_name=$(dirname $BASH_SOURCE)
     cd $directory_name
     python3.11 -m scripts.$1
