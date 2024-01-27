@@ -2,14 +2,12 @@ import os
 import json
 import time
 import requests
+from utils.requests import api_request
 
 
 def season_data(country, league_name, season):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_season_fixtures2/{season}'
-    print('fetching data...', url)
-
-    response = requests.get(url).json()
-    # league_name = response['doc'][0]['data']['name']
+    response = api_request(url)
 
     teams = []
     teams_scanned = []
@@ -17,11 +15,12 @@ def season_data(country, league_name, season):
     matches = {}
 
     response_matches = response['doc'][0]['data']['matches']
+
+    print(f'matches: {len(response_matches)}')
     for match in response_matches:
         if match['round'] is None:
             continue
 
-        print('============================================\n')
         if not match['teams']['home']['uid'] in teams_scanned:
             teams.append({
                 'id': match['teams']['home']['uid'],
@@ -43,7 +42,7 @@ def season_data(country, league_name, season):
             teams_scanned.append(match['teams']['away']['uid'])
             
 
-        print(match)
+        # print('match', match)
         # informacion este o no este el partido terminado.
         # esto es para armar la temporada completa
         matches[match['_id']] = {
@@ -140,9 +139,8 @@ def _scrapped_matches(country, league_name, season, base_file_data, ready_for_sc
 
 def _process_match_squads(match_id):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/match_squads/{match_id}'
-    response_data = requests.get(url).json()
     print(f'fetching match... {url}')
-
+    response_data = api_request(url)
     data = response_data['doc'][0]['data']
 
     if len(data) == 0:
@@ -164,7 +162,7 @@ def _process_match_squads(match_id):
 
 def _process_stats_match_timeline(match_id):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Montevideo/gismo/stats_match_timeline/{match_id}'
-    response = requests.get(url).json()
+    response = api_request(url)
     events_data = response['doc'][0]['data']['events']
 
     available_events = [
@@ -260,7 +258,8 @@ def _fetch_previous_game(team_a, team_b, match_time):
     try:
         teams = sorted([team_a, team_b])
         url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_h2h_versus/{teams[0]}/{teams[1]}'
-        response = requests.get(url).json()
+        
+        response = api_request(url)
         lastmatchesbetweenteams = response['doc'][0]['data']['lastmatchesbetweenteams']
 
         first_coincidence = False

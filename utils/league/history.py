@@ -7,9 +7,11 @@ import json
 import time
 import requests
 
+
 def season_team_list(season):
     url = f'https://stats.fn.sportradar.com/sportradar/es/Europe:Berlin/gismo/stats_season_tables/{season}'
-    response = requests.get(url).json()
+
+    response = api_request(url)
     response_data = response['doc'][0]['data']['tables'][0]
     max_rounds = response_data['maxrounds']
     current_round = response_data['currentround']
@@ -74,7 +76,22 @@ def team_matches_url(season, team_list, league_name, max_rounds):
 
 
             if not team['id'] in json_information['team_scanned']:
-                response = requests.get(url).json()
+                headers = {
+                    'Accept': '*/*',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8,fr;q=0.7',
+                    'Origin': 'https://s5.sir.sportradar.com',
+                    'Referer': 'https://s5.sir.sportradar.com/',
+                    'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+                    'Sec-Ch-Ua-Mobile': '?0',
+                    'Sec-Ch-Ua-Platform': '"Linux"',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                }
+
+                response = requests.get(url, headers=headers).json()
                 match_list_for_team = response['doc'][0]['data']['currentseason'][f'{team["id"]}']
 
                 for match_data in match_list_for_team:
@@ -98,8 +115,7 @@ def team_matches_url(season, team_list, league_name, max_rounds):
 
 
 def _process_stats_match_timeline(match_id):
-    url = f'https://stats.fn.sportradar.com/sportradar/es/America:Montevideo/gismo/stats_match_timeline/{match_id}'
-    response = requests.get(url).json()
+    response = api_request(url)
     events_data = response['doc'][0]['data']['events']
 
     available_events = [
@@ -189,7 +205,7 @@ def scrapped_match(match):
 
 def _process_stats_match(match_id):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_match_get/{match_id}'
-    response_data = requests.get(url).json()
+    response_data = api_request(url)
     data = response_data['doc'][0]['data']
     referee = {
         'name': data['referee'][0]['name'],
@@ -229,7 +245,8 @@ def _process_stats_match_lineup(match_id):
 
 def _process_match_squads(match_id):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/match_squads/{match_id}'
-    response_data = requests.get(url).json()
+
+    response_data = api_request(url)
     data = response_data['doc'][0]['data']
     home_data = data['match']['teams']['home']
     away_data = data['match']['teams']['away']
@@ -295,7 +312,8 @@ def _process_match_squads(match_id):
 
 def _process_match_details(match_id):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/match_details/{match_id}'
-    response_data = requests.get(url).json()
+
+    response_data = api_request(url)
     data = response_data['doc'][0]['data']
     print(f'processing {data["teams"]["home"]} vs {data["teams"]["away"]}')
 
@@ -388,7 +406,7 @@ def _process_match_details(match_id):
 
 def update_next_matches(matches_finished, season):
     url = f'https://stats.fn.sportradar.com/sportradar/es/America:Santiago/gismo/stats_season_fixtures2/{season}'
-    response = requests.get(url).json()
+    response = api_request(url)
     matches = response['doc'][0]['data']['matches']
 
     next_matches = []
